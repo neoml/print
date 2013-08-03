@@ -1,0 +1,261 @@
+<Configuration>
+  <SettingsComponent>
+    <string />
+    <integer />
+    <boolean>
+      <setting name="livetemplates.csharp.usevar">True</setting>
+      <setting name="SolutionAnalysisEnabled">False</setting>
+    </boolean>
+  </SettingsComponent>
+  <CompletionStatisticsManager>
+    <ItemStatistics item="Default">
+      <Item value="string" priority="35" />
+      <Item value="textBox_md5" priority="4" />
+      <Item value="new" priority="21" />
+      <Item value="StringTools`0" priority="2" />
+      <Item value="account" priority="2" />
+      <Item value="parms" priority="3" />
+      <Item value="count" priority="0" />
+      <Item value="da" priority="3" />
+      <Item value="return" priority="33" />
+      <Item value="delivery" priority="0" />
+      <Item value="csoCode" priority="0" />
+      <Item value="sb" priority="5" />
+      <Item value="cDLCode" priority="0" />
+      <Item value="ddh" priority="0" />
+      <Item value="DeliveryPrintService" priority="0" />
+      <Item value="using" priority="1" />
+      <Item value="this" priority="2" />
+      <Item value="if" priority="18" />
+      <Item value="dt" priority="9" />
+      <Item value="MessageBox`0" priority="1" />
+      <Item value="else" priority="9" />
+      <Item value="NewsStyleUriParser`0" priority="1" />
+      <Item value="SqlParameter" priority="11" />
+      <Item value="SqlDbType`0" priority="6" />
+      <Item value="ShippingMethods" priority="0" />
+      <Item value="public" priority="15" />
+      <Item value="List" priority="11" />
+      <Item value="obj" priority="2" />
+      <Item value="SqlParameter`0" priority="0" />
+      <Item value="DataTable`0" priority="15" />
+      <Item value="null" priority="18" />
+      <Item value="List&lt;string&gt;" priority="0" />
+      <Item value="ll" priority="8" />
+      <Item value="foreach" priority="2" />
+      <Item value="vv" priority="0" />
+      <Item value="DataRow`0" priority="1" />
+      <Item value="StoragePrintDA" priority="0" />
+      <Item value="sd" priority="0" />
+      <Item value="textBox1" priority="7" />
+      <Item value="Validate`0" priority="0" />
+      <Item value="comboBox1" priority="3" />
+      <Item value="hdname" priority="7" />
+      <Item value="username" priority="1" />
+      <Item value="int" priority="9" />
+      <Item value="DateTime`0" priority="14" />
+      <Item value="kddh" priority="2" />
+      <Item value="bool" priority="11" />
+      <Item value="from" priority="0" />
+      <Item value="fromnum" priority="0" />
+      <Item value="orderunm" priority="1" />
+      <Item value="sql" priority="6" />
+      <Item value="mjid" priority="1" />
+      <Item value="caozuo" priority="1" />
+      <Item value="shijian" priority="1" />
+      <Item value="ddtime" priority="0" />
+      <Item value="pt" priority="0" />
+      <Item value="ok" priority="1" />
+      <Item value="object" priority="1" />
+      <Item value="true" priority="3" />
+      <Item value="false" priority="19" />
+      <Item value="DataTable" priority="1" />
+      <Item value="strUserNum" priority="2" />
+      <Item value="Application" priority="0" />
+      <Item value="StringBuilder`0" priority="0" />
+      <Item value="StringBuilder" priority="0" />
+      <Item value="tt" priority="0" />
+      <Item value="row" priority="0" />
+      <Item value="StartThread`0" priority="0" />
+      <Item value="nn" priority="1" />
+      <Item value="strpass" priority="0" />
+      <Item value="ruser" priority="0" />
+      <Item value="strPassword" priority="0" />
+      <Item value="System" priority="1" />
+      <Item value="Web" priority="0" />
+      <Item value="Services" priority="0" />
+      <Item value="Protocols" priority="0" />
+      <Item value="SoapHeader" priority="0" />
+      <Item value="NSoapVar" priority="0" />
+      <Item value="CheckSoapHead`0" priority="0" />
+      <Item value="MyService" priority="1" />
+      <Item value="ToString`0" priority="0" />
+      <Item value="myheader`0" priority="0" />
+      <Item value="myheader" priority="3" />
+      <Item value="dtime" priority="1" />
+      <Item value="List&lt;int&gt;" priority="0" />
+      <Item value="tid" priority="1" />
+      <Item value="address" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.TextBox">
+      <Item value="Text" priority="15" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.String">
+      <Item value="Trim`0" priority="1" />
+      <Item value="ToUpper`0" priority="1" />
+      <Item value="Equals`0" priority="7" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@ServiceLib.Util.StringTools">
+      <Item value="MD5Encode`0" priority="2" />
+      <Item value="EncodingForString`0" priority="1" />
+      <Item value="MD5String`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@ServiceLib.Util.SqlHelper">
+      <Item value="Double12Con" priority="9" />
+      <Item value="TBRobotCon" priority="0" />
+      <Item value="ExecuteNonQuery`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Text.StringBuilder">
+      <Item value="Append`0" priority="2" />
+      <Item value="ToString`0" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Data.SqlDbType">
+      <Item value="NVarChar" priority="8" />
+      <Item value="Int" priority="1" />
+      <Item value="BigInt" priority="0" />
+      <Item value="DateTime" priority="1" />
+      <Item value="NText" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:ServiceLib.DA.DeliveryPrintDA">
+      <Item value="InsertDispatchLists`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:TestFrom.Form1">
+      <Item value="txtOrderNo" priority="0" />
+      <Item value="txtDeliveryNo" priority="0" />
+      <Item value="textBox_md5" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Windows.Forms.MessageBox">
+      <Item value="Show`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Data.DataTable">
+      <Item value="Rows" priority="3" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Data.DataRowCollection">
+      <Item value="Count" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Int32">
+      <Item value="ToString`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.List`1">
+      <Item value="Add`0" priority="2" />
+      <Item value="Count" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Object">
+      <Item value="ToString`0" priority="5" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:ServiceLib.DA.StoragePrintDA">
+      <Item value="GetHdNameAll`0" priority="0" />
+      <Item value="GetInvoice`0" priority="0" />
+      <Item value="UpWTdan`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.ComboBox">
+      <Item value="DataBindings" priority="0" />
+      <Item value="DataSource" priority="0" />
+      <Item value="SelectedText" priority="1" />
+      <Item value="SelectedValue" priority="0" />
+      <Item value="SelectedIndex" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Int32">
+      <Item value="Parse`0" priority="3" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Data.DataSet">
+      <Item value="Tables" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.String">
+      <Item value="Format`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:DeliveryPrintService.myheader">
+      <Item value="username" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:TestFrom.DeliveryPrintService.DeliveryPrintService">
+      <Item value="GetHdNameAll`0" priority="0" />
+      <Item value="myheaderValue" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:TestFrom.DeliveryPrintService.myheader">
+      <Item value="username" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.DateTime">
+      <Item value="ToString`0" priority="3" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.DateTime">
+      <Item value="Now" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:ServiceLib.BC.StoragePrintBC">
+      <Item value="UpWTdan`0" priority="0" />
+    </ItemStatistics>
+  </CompletionStatisticsManager>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="7CD5389B-A2F9-42E0-974B-B9E9B91F06CB/d:Entity/f:InvoiceInfo.cs" caret="70" fromTop="1" />
+      <File id="7CD5389B-A2F9-42E0-974B-B9E9B91F06CB/d:Entity/f:InvoiceRes.cs" caret="70" fromTop="1" />
+      <File id="7CD5389B-A2F9-42E0-974B-B9E9B91F06CB/d:Entity/f:LogInfo.cs" caret="70" fromTop="1" />
+      <File id="16503F43-4099-483E-9E03-E42CA35B484B/f:Program.cs" caret="468" fromTop="20" />
+      <File id="16503F43-4099-483E-9E03-E42CA35B484B/f:app.config" caret="0" fromTop="0" />
+      <File id="7CD5389B-A2F9-42E0-974B-B9E9B91F06CB/d:Util/f:StringTools.cs" caret="1034" fromTop="24" />
+      <File id="7CD5389B-A2F9-42E0-974B-B9E9B91F06CB/d:Util/f:WebTools.cs" caret="1095" fromTop="16" />
+      <File id="7CD5389B-A2F9-42E0-974B-B9E9B91F06CB/d:Util/f:Logger.cs" caret="4156" fromTop="20" />
+      <File id="7CD5389B-A2F9-42E0-974B-B9E9B91F06CB/d:Util/f:SqlHelper.cs" caret="516" fromTop="11" />
+      <File id="7CD5389B-A2F9-42E0-974B-B9E9B91F06CB/f:app.config" caret="0" fromTop="0" />
+      <File id="45B162AA-4A52-4084-932E-8E2EECA950E4/f:Web.config" caret="1470" fromTop="12" />
+      <File id="16503F43-4099-483E-9E03-E42CA35B484B/f:Form1.cs" caret="7775" fromTop="13" />
+      <File id="7CD5389B-A2F9-42E0-974B-B9E9B91F06CB/d:BC/f:DeliveryPrintBC.cs" caret="1414" fromTop="1" />
+      <File id="7CD5389B-A2F9-42E0-974B-B9E9B91F06CB/d:BC/f:StoragePrintBC.cs" caret="818" fromTop="3" />
+      <File id="45B162AA-4A52-4084-932E-8E2EECA950E4/f:DeliveryPrintService.asmx.cs" caret="13873" fromTop="151" />
+      <File id="7CD5389B-A2F9-42E0-974B-B9E9B91F06CB/d:DA/f:DeliveryPrintDA.cs" caret="6437" fromTop="0" />
+      <File id="7CD5389B-A2F9-42E0-974B-B9E9B91F06CB/d:DA/f:StoragePrintDA.cs" caret="4365" fromTop="0" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="7CD5389B-A2F9-42E0-974B-B9E9B91F06CB/d:DA/f:StoragePrintDA.cs" caret="6264" fromTop="6" />
+      <File id="7CD5389B-A2F9-42E0-974B-B9E9B91F06CB/d:DA/f:StoragePrintDA.cs" caret="5155" fromTop="16" />
+      <File id="7CD5389B-A2F9-42E0-974B-B9E9B91F06CB/d:DA/f:StoragePrintDA.cs" caret="5708" fromTop="15" />
+      <File id="7CD5389B-A2F9-42E0-974B-B9E9B91F06CB/d:DA/f:StoragePrintDA.cs" caret="4487" fromTop="6" />
+      <File id="45B162AA-4A52-4084-932E-8E2EECA950E4/f:DeliveryPrintService.asmx.cs" caret="13580" fromTop="7" />
+      <File id="45B162AA-4A52-4084-932E-8E2EECA950E4/f:DeliveryPrintService.asmx.cs" caret="14380" fromTop="14" />
+      <File id="7CD5389B-A2F9-42E0-974B-B9E9B91F06CB/d:BC/f:StoragePrintBC.cs" caret="294" fromTop="12" />
+      <File id="7CD5389B-A2F9-42E0-974B-B9E9B91F06CB/d:BC/f:StoragePrintBC.cs" caret="767" fromTop="14" />
+      <File id="7CD5389B-A2F9-42E0-974B-B9E9B91F06CB/d:BC/f:StoragePrintBC.cs" caret="3504" fromTop="21" />
+      <File id="7CD5389B-A2F9-42E0-974B-B9E9B91F06CB/d:DA/f:StoragePrintDA.cs" caret="4130" fromTop="13" />
+      <File id="7CD5389B-A2F9-42E0-974B-B9E9B91F06CB/d:DA/f:StoragePrintDA.cs" caret="3835" fromTop="13" />
+      <File id="7CD5389B-A2F9-42E0-974B-B9E9B91F06CB/d:DA/f:StoragePrintDA.cs" caret="3335" fromTop="18" />
+      <File id="7CD5389B-A2F9-42E0-974B-B9E9B91F06CB/d:DA/f:StoragePrintDA.cs" caret="7133" fromTop="8" />
+      <File id="7CD5389B-A2F9-42E0-974B-B9E9B91F06CB/d:DA/f:StoragePrintDA.cs" caret="3092" fromTop="15" />
+      <File id="7CD5389B-A2F9-42E0-974B-B9E9B91F06CB/d:DA/f:StoragePrintDA.cs" caret="2728" fromTop="5" />
+      <File id="7CD5389B-A2F9-42E0-974B-B9E9B91F06CB/d:BC/f:StoragePrintBC.cs" caret="659" fromTop="11" />
+      <File id="45B162AA-4A52-4084-932E-8E2EECA950E4/f:DeliveryPrintService.asmx.cs" caret="14637" fromTop="7" />
+      <File id="45B162AA-4A52-4084-932E-8E2EECA950E4/f:DeliveryPrintService.asmx.cs" caret="14977" fromTop="17" />
+      <File id="45B162AA-4A52-4084-932E-8E2EECA950E4/f:DeliveryPrintService.asmx.cs" caret="14884" fromTop="13" />
+      <File id="45B162AA-4A52-4084-932E-8E2EECA950E4/f:DeliveryPrintService.asmx.cs" caret="15540" fromTop="21" />
+      <File id="7CD5389B-A2F9-42E0-974B-B9E9B91F06CB/d:DA/f:StoragePrintDA.cs" caret="1786" fromTop="21" />
+      <File id="45B162AA-4A52-4084-932E-8E2EECA950E4/f:DeliveryPrintService.asmx.cs" caret="15174" fromTop="2" />
+      <File id="45B162AA-4A52-4084-932E-8E2EECA950E4/f:DeliveryPrintService.asmx.cs" caret="15395" fromTop="11" />
+      <File id="7CD5389B-A2F9-42E0-974B-B9E9B91F06CB/d:BC/f:StoragePrintBC.cs" caret="538" fromTop="10" />
+      <File id="7CD5389B-A2F9-42E0-974B-B9E9B91F06CB/d:DA/f:StoragePrintDA.cs" caret="1427" fromTop="19" />
+      <File id="7CD5389B-A2F9-42E0-974B-B9E9B91F06CB/d:DA/f:StoragePrintDA.cs" caret="2635" fromTop="21" />
+      <File id="7CD5389B-A2F9-42E0-974B-B9E9B91F06CB/d:DA/f:StoragePrintDA.cs" caret="2078" fromTop="10" />
+      <File id="7CD5389B-A2F9-42E0-974B-B9E9B91F06CB/d:DA/f:StoragePrintDA.cs" caret="722" fromTop="10" />
+      <File id="45B162AA-4A52-4084-932E-8E2EECA950E4/f:DeliveryPrintService.asmx.cs" caret="1372" fromTop="14" />
+      <File id="45B162AA-4A52-4084-932E-8E2EECA950E4/f:DeliveryPrintService.asmx.cs" caret="14082" fromTop="6" />
+    </RecentEdits>
+  </RecentFiles>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <UnitTestRunner>
+    <Providers />
+  </UnitTestRunner>
+  <UnitTestRunnerNUnit>
+    <NUnitInstallDir IsNull="False">
+    </NUnitInstallDir>
+    <UseAddins>Never</UseAddins>
+  </UnitTestRunnerNUnit>
+</Configuration>

@@ -1,0 +1,12 @@
+set transaction isolation level repeatable read
+                    begin tran st 
+
+                    --drop table #mmm;
+                    select top (@oncenum)  id,Buyer_nick,Num,Created,Tid as OrderNo,Pcode,DeliveryNo   into #mmm from double12.dbo.ProductOrderInfo where (((Paccount is null) or (Paccount='')) and (IsRead=0 or (IsRead is null))  and (IsPrint=0 or (IsPrint is null)) and ExpressWay=@kdlx and hdname=@hd and ExpressWay!='没有') or (Paccount=@paccount and (IsPrint=0 or (IsPrint is null)) and IsRead=1 and ExpressWay=@kdlx and hdname=@hd and ExpressWay!='没有') order by Num,City;
+                    update double12.dbo.ProductOrderInfo  set Paccount=@paccount,IsRead=1,Stime=GETDATE() from #mmm where  double12.dbo.ProductOrderInfo.id=#mmm.id;
+                    select * from #mmm;
+                    drop table #mmm;
+
+                    commit tran st
+                        hwang1@2012-2-18 12:52:29
+存在125537243712320@2012-2-18 16:19:41

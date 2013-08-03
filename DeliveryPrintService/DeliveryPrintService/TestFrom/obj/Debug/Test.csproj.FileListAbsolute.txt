@@ -1,0 +1,58 @@
+D:\Code 2011.5.30-1\Storage\DeliveryPrintService\DeliveryPrintService\TestFrom\bin\Debug\TestFrom.exe
+D:\Code 2011.5.30-1\Storage\DeliveryPrintService\DeliveryPrintService\TestFrom\bin\Debug\TestFrom.pdb
+D:\Code 2011.5.30-1\Storage\DeliveryPrintService\DeliveryPrintService\TestFrom\bin\Debug\ServiceLib.dll
+D:\Code 2011.5.30-1\Storage\DeliveryPrintService\DeliveryPrintService\TestFrom\bin\Debug\log4net.dll
+D:\Code 2011.5.30-1\Storage\DeliveryPrintService\DeliveryPrintService\TestFrom\bin\Debug\ServiceLib.pdb
+D:\Code 2011.5.30-1\Storage\DeliveryPrintService\DeliveryPrintService\TestFrom\obj\Debug\ResolveAssemblyReference.cache
+D:\Code 2011.5.30-1\Storage\DeliveryPrintService\DeliveryPrintService\TestFrom\obj\Debug\TestFrom.Form1.resources
+D:\Code 2011.5.30-1\Storage\DeliveryPrintService\DeliveryPrintService\TestFrom\obj\Debug\TestFrom.Properties.Resources.resources
+D:\Code 2011.5.30-1\Storage\DeliveryPrintService\DeliveryPrintService\TestFrom\obj\Debug\Test.csproj.GenerateResource.Cache
+D:\Code 2011.5.30-1\Storage\DeliveryPrintService\DeliveryPrintService\TestFrom\obj\Debug\TestFrom.exe
+D:\Code 2011.5.30-1\Storage\DeliveryPrintService\DeliveryPrintService\TestFrom\obj\Debug\TestFrom.pdb
+F:\huohuatuo\上海20110929\费培俊\1\Storage\DeliveryPrintService\DeliveryPrintService\TestFrom\obj\Debug\TestFrom.exe
+F:\huohuatuo\上海20110929\费培俊\1\Storage\DeliveryPrintService\DeliveryPrintService\TestFrom\obj\Debug\TestFrom.pdb
+F:\huohuatuo\上海20110929\费培俊\1\Storage\DeliveryPrintService\DeliveryPrintService\TestFrom\bin\Debug\TestFrom.exe
+F:\huohuatuo\上海20110929\费培俊\1\Storage\DeliveryPrintService\DeliveryPrintService\TestFrom\bin\Debug\TestFrom.pdb
+F:\huohuatuo\上海20110929\费培俊\1\Storage\DeliveryPrintService\DeliveryPrintService\TestFrom\bin\Debug\ServiceLib.dll
+F:\huohuatuo\上海20110929\费培俊\1\Storage\DeliveryPrintService\DeliveryPrintService\TestFrom\bin\Debug\log4net.dll
+F:\huohuatuo\上海20110929\费培俊\1\Storage\DeliveryPrintService\DeliveryPrintService\TestFrom\bin\Debug\ServiceLib.pdb
+F:\huohuatuo\上海20110929\费培俊\1\Storage\DeliveryPrintService\DeliveryPrintService\TestFrom\obj\Debug\ResolveAssemblyReference.cache
+F:\huohuatuo\上海20110929\费培俊\1\Storage\DeliveryPrintService\DeliveryPrintService\TestFrom\obj\Debug\TestFrom.Form1.resources
+F:\huohuatuo\上海20110929\费培俊\1\Storage\DeliveryPrintService\DeliveryPrintService\TestFrom\obj\Debug\TestFrom.Properties.Resources.resources
+F:\huohuatuo\上海20110929\费培俊\1\Storage\DeliveryPrintService\DeliveryPrintService\TestFrom\obj\Debug\Test.csproj.GenerateResource.Cache
+I:\工作\双12专用打印\DeliveryPrintService\DeliveryPrintService\TestFrom\obj\Debug\TestFrom.exe
+I:\工作\双12专用打印\DeliveryPrintService\DeliveryPrintService\TestFrom\obj\Debug\TestFrom.pdb
+I:\工作\双12专用打印\DeliveryPrintService\DeliveryPrintService\TestFrom\bin\Debug\TestFrom.exe.config
+I:\工作\双12专用打印\DeliveryPrintService\DeliveryPrintService\TestFrom\obj\Debug\ResolveAssemblyReference.cache
+I:\工作\双12专用打印\DeliveryPrintService\DeliveryPrintService\TestFrom\obj\Debug\TestFrom.Form1.resources
+I:\工作\双12专用打印\DeliveryPrintService\DeliveryPrintService\TestFrom\obj\Debug\TestFrom.Properties.Resources.resources
+I:\工作\双12专用打印\DeliveryPrintService\DeliveryPrintService\TestFrom\obj\Debug\Test.csproj.GenerateResource.Cache
+I:\工作\双12专用打印\DeliveryPrintService\DeliveryPrintService\TestFrom\bin\Debug\TestFrom.exe
+I:\工作\双12专用打印\DeliveryPrintService\DeliveryPrintService\TestFrom\bin\Debug\TestFrom.pdb
+I:\工作\双12专用打印\DeliveryPrintService\DeliveryPrintService\TestFrom\bin\Debug\ServiceLib.dll
+I:\工作\双12专用打印\DeliveryPrintService\DeliveryPrintService\TestFrom\bin\Debug\log4net.dll
+I:\工作\双12专用打印\DeliveryPrintService\DeliveryPrintService\TestFrom\bin\Debug\ServiceLib.pdb
+G:\NMLCH\TUANGOU\双12专用打印\DeliveryPrintService\DeliveryPrintService\TestFrom\bin\Debug\TestFrom.exe.config
+G:\NMLCH\TUANGOU\双12专用打印\DeliveryPrintService\DeliveryPrintService\TestFrom\obj\Debug\TestFrom.exe
+G:\NMLCH\TUANGOU\双12专用打印\DeliveryPrintService\DeliveryPrintService\TestFrom\obj\Debug\TestFrom.pdb
+G:\NMLCH\TUANGOU\双12专用打印\DeliveryPrintService\DeliveryPrintService\TestFrom\bin\Debug\TestFrom.exe
+G:\NMLCH\TUANGOU\双12专用打印\DeliveryPrintService\DeliveryPrintService\TestFrom\bin\Debug\TestFrom.pdb
+G:\NMLCH\TUANGOU\双12专用打印\DeliveryPrintService\DeliveryPrintService\TestFrom\bin\Debug\ServiceLib.dll
+G:\NMLCH\TUANGOU\双12专用打印\DeliveryPrintService\DeliveryPrintService\TestFrom\bin\Debug\log4net.dll
+G:\NMLCH\TUANGOU\双12专用打印\DeliveryPrintService\DeliveryPrintService\TestFrom\bin\Debug\ServiceLib.pdb
+G:\NMLCH\TUANGOU\双12专用打印\DeliveryPrintService\DeliveryPrintService\TestFrom\obj\Debug\ResolveAssemblyReference.cache
+G:\NMLCH\TUANGOU\双12专用打印\DeliveryPrintService\DeliveryPrintService\TestFrom\obj\Debug\TestFrom.Form1.resources
+G:\NMLCH\TUANGOU\双12专用打印\DeliveryPrintService\DeliveryPrintService\TestFrom\obj\Debug\TestFrom.Properties.Resources.resources
+G:\NMLCH\TUANGOU\双12专用打印\DeliveryPrintService\DeliveryPrintService\TestFrom\obj\Debug\Test.csproj.GenerateResource.Cache
+G:\刘殷嘉\双12专用打印(团购的代码)\DeliveryPrintService\DeliveryPrintService\TestFrom\bin\Debug\TestFrom.exe.config
+G:\刘殷嘉\双12专用打印(团购的代码)\DeliveryPrintService\DeliveryPrintService\TestFrom\obj\Debug\TestFrom.exe
+G:\刘殷嘉\双12专用打印(团购的代码)\DeliveryPrintService\DeliveryPrintService\TestFrom\obj\Debug\TestFrom.pdb
+G:\刘殷嘉\双12专用打印(团购的代码)\DeliveryPrintService\DeliveryPrintService\TestFrom\bin\Debug\TestFrom.exe
+G:\刘殷嘉\双12专用打印(团购的代码)\DeliveryPrintService\DeliveryPrintService\TestFrom\bin\Debug\TestFrom.pdb
+G:\刘殷嘉\双12专用打印(团购的代码)\DeliveryPrintService\DeliveryPrintService\TestFrom\bin\Debug\ServiceLib.dll
+G:\刘殷嘉\双12专用打印(团购的代码)\DeliveryPrintService\DeliveryPrintService\TestFrom\bin\Debug\log4net.dll
+G:\刘殷嘉\双12专用打印(团购的代码)\DeliveryPrintService\DeliveryPrintService\TestFrom\bin\Debug\ServiceLib.pdb
+G:\刘殷嘉\双12专用打印(团购的代码)\DeliveryPrintService\DeliveryPrintService\TestFrom\obj\Debug\ResolveAssemblyReference.cache
+G:\刘殷嘉\双12专用打印(团购的代码)\DeliveryPrintService\DeliveryPrintService\TestFrom\obj\Debug\TestFrom.Form1.resources
+G:\刘殷嘉\双12专用打印(团购的代码)\DeliveryPrintService\DeliveryPrintService\TestFrom\obj\Debug\TestFrom.Properties.Resources.resources
+G:\刘殷嘉\双12专用打印(团购的代码)\DeliveryPrintService\DeliveryPrintService\TestFrom\obj\Debug\Test.csproj.GenerateResource.Cache

@@ -1,0 +1,33 @@
+D:\Code 2011.5.30-1\Storage\DeliveryPrintService\ServiceLib\ServiceLib\bin\Debug\ServiceLib.dll
+D:\Code 2011.5.30-1\Storage\DeliveryPrintService\ServiceLib\ServiceLib\bin\Debug\ServiceLib.pdb
+D:\Code 2011.5.30-1\Storage\DeliveryPrintService\ServiceLib\ServiceLib\bin\Debug\log4net.dll
+D:\Code 2011.5.30-1\Storage\DeliveryPrintService\ServiceLib\ServiceLib\obj\Debug\ResolveAssemblyReference.cache
+D:\Code 2011.5.30-1\Storage\DeliveryPrintService\ServiceLib\ServiceLib\obj\Debug\ServiceLib.dll
+D:\Code 2011.5.30-1\Storage\DeliveryPrintService\ServiceLib\ServiceLib\obj\Debug\ServiceLib.pdb
+F:\huohuatuo\上海20110929\费培俊\1\Storage\DeliveryPrintService\ServiceLib\ServiceLib\bin\Debug\ServiceLib.dll
+F:\huohuatuo\上海20110929\费培俊\1\Storage\DeliveryPrintService\ServiceLib\ServiceLib\bin\Debug\ServiceLib.pdb
+F:\huohuatuo\上海20110929\费培俊\1\Storage\DeliveryPrintService\ServiceLib\ServiceLib\bin\Debug\log4net.dll
+F:\huohuatuo\上海20110929\费培俊\1\Storage\DeliveryPrintService\ServiceLib\ServiceLib\obj\Debug\ResolveAssemblyReference.cache
+F:\huohuatuo\上海20110929\费培俊\1\Storage\DeliveryPrintService\ServiceLib\ServiceLib\obj\Debug\ServiceLib.dll
+F:\huohuatuo\上海20110929\费培俊\1\Storage\DeliveryPrintService\ServiceLib\ServiceLib\obj\Debug\ServiceLib.pdb
+I:\工作\双12专用打印\DeliveryPrintService\ServiceLib\ServiceLib\bin\Debug\ServiceLib.dll
+I:\工作\双12专用打印\DeliveryPrintService\ServiceLib\ServiceLib\bin\Debug\ServiceLib.pdb
+I:\工作\双12专用打印\DeliveryPrintService\ServiceLib\ServiceLib\bin\Debug\log4net.dll
+I:\工作\双12专用打印\DeliveryPrintService\ServiceLib\ServiceLib\obj\Debug\ResolveAssemblyReference.cache
+I:\工作\双12专用打印\DeliveryPrintService\ServiceLib\ServiceLib\obj\Debug\ServiceLib.dll
+I:\工作\双12专用打印\DeliveryPrintService\ServiceLib\ServiceLib\obj\Debug\ServiceLib.pdb
+I:\工作\双12专用打印\DeliveryPrintService\ServiceLib\ServiceLib\bin\Debug\ServiceLib.dll.config
+G:\NMLCH\TUANGOU\双12专用打印\DeliveryPrintService\ServiceLib\ServiceLib\bin\Debug\ServiceLib.dll.config
+G:\NMLCH\TUANGOU\双12专用打印\DeliveryPrintService\ServiceLib\ServiceLib\bin\Debug\ServiceLib.dll
+G:\NMLCH\TUANGOU\双12专用打印\DeliveryPrintService\ServiceLib\ServiceLib\bin\Debug\ServiceLib.pdb
+G:\NMLCH\TUANGOU\双12专用打印\DeliveryPrintService\ServiceLib\ServiceLib\bin\Debug\log4net.dll
+G:\NMLCH\TUANGOU\双12专用打印\DeliveryPrintService\ServiceLib\ServiceLib\obj\Debug\ResolveAssemblyReference.cache
+G:\NMLCH\TUANGOU\双12专用打印\DeliveryPrintService\ServiceLib\ServiceLib\obj\Debug\ServiceLib.dll
+G:\NMLCH\TUANGOU\双12专用打印\DeliveryPrintService\ServiceLib\ServiceLib\obj\Debug\ServiceLib.pdb
+G:\刘殷嘉\双12专用打印(团购的代码)\DeliveryPrintService\ServiceLib\ServiceLib\bin\Debug\ServiceLib.dll.config
+G:\刘殷嘉\双12专用打印(团购的代码)\DeliveryPrintService\ServiceLib\ServiceLib\bin\Debug\ServiceLib.dll
+G:\刘殷嘉\双12专用打印(团购的代码)\DeliveryPrintService\ServiceLib\ServiceLib\bin\Debug\ServiceLib.pdb
+G:\刘殷嘉\双12专用打印(团购的代码)\DeliveryPrintService\ServiceLib\ServiceLib\bin\Debug\log4net.dll
+G:\刘殷嘉\双12专用打印(团购的代码)\DeliveryPrintService\ServiceLib\ServiceLib\obj\Debug\ResolveAssemblyReference.cache
+G:\刘殷嘉\双12专用打印(团购的代码)\DeliveryPrintService\ServiceLib\ServiceLib\obj\Debug\ServiceLib.dll
+G:\刘殷嘉\双12专用打印(团购的代码)\DeliveryPrintService\ServiceLib\ServiceLib\obj\Debug\ServiceLib.pdb

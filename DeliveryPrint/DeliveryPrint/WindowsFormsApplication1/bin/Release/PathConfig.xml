@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Config>
+  <Path>127.0.0.1:3495</Path>
+  <ServiceName>Microsoft XPS Document Writer</ServiceName>
+  <Format>123</Format>
+  <ShopSource>国产</ShopSource>
+  <PrintName>Microsoft XPS Document Writer</PrintName>
+  <ShopSource />
+  <PrintName />
+</Config>

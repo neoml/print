@@ -1,0 +1,5 @@
+<Modules>
+  <Module PersistentId="16503F43-4099-483E-9E03-E42CA35B484B" ModuleId="Test" />
+  <Module PersistentId="7CD5389B-A2F9-42E0-974B-B9E9B91F06CB" ModuleId="ServiceLib" />
+  <Module PersistentId="45B162AA-4A52-4084-932E-8E2EECA950E4" ModuleId="DeliveryPrintService" />
+</Modules>

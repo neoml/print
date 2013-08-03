@@ -1,0 +1,1292 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://tempuri.org/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="GetNoKdTable">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="account" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="count" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetNoKdTableResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetNoKdTableResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/2001/XMLSchema" processContents="lax" />
+                  <s:any minOccurs="1" namespace="urn:schemas-microsoft-com:xml-diffgram-v1" processContents="lax" />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="myheader" type="tns:myheader" />
+      <s:complexType name="myheader">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="username" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="password" type="s:string" />
+        </s:sequence>
+        <s:anyAttribute />
+      </s:complexType>
+      <s:element name="UpKdFs">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="tid" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="kdfs" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="UpKdFsResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="UpKdFsResult" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="RealseLockuser">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ll" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="RealseLockuserResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="RealseLockuserResult" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="RealseLock">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ll" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="RealseLockResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="RealseLockResult" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetPrintGroupBy">
+        <s:complexType />
+      </s:element>
+      <s:element name="GetPrintGroupByResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetPrintGroupByResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/2001/XMLSchema" processContents="lax" />
+                  <s:any minOccurs="1" namespace="urn:schemas-microsoft-com:xml-diffgram-v1" processContents="lax" />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetPrintPart">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="from" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="orderunm" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="kddh" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="mjid" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="caozuo" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="shijian" type="s:dateTime" />
+            <s:element minOccurs="0" maxOccurs="1" name="hdname" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="ddtime" type="s:dateTime" />
+            <s:element minOccurs="1" maxOccurs="1" name="pt" type="s:boolean" />
+            <s:element minOccurs="1" maxOccurs="1" name="dt" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetPrintPartResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetPrintPartResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/2001/XMLSchema" processContents="lax" />
+                  <s:any minOccurs="1" namespace="urn:schemas-microsoft-com:xml-diffgram-v1" processContents="lax" />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetOrderInfo2">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="id" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetOrderInfo2Response">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetOrderInfo2Result" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetOrderInfoPart">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="id" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetOrderInfoPartResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetOrderInfoPartResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetOrderInfo">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="id" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetOrderInfoResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetOrderInfoResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Getkucun">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="sellename" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="hdname" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="time" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="isclose" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetkucunResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetkucunResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/2001/XMLSchema" processContents="lax" />
+                  <s:any minOccurs="1" namespace="urn:schemas-microsoft-com:xml-diffgram-v1" processContents="lax" />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetorderNum">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="sellename" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="hdname" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="time" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetorderNumResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetorderNumResult" type="tns:ArrayOfString" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ArrayOfString">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="string" nillable="true" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="GetOrderDeliveryPrintStateNew">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="account" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="ShippingMethods" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="orderNo" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="category" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="salestype" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="count" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="sellernick" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="hdname" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetOrderDeliveryPrintStateNewResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetOrderDeliveryPrintStateNewResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/2001/XMLSchema" processContents="lax" />
+                  <s:any minOccurs="1" namespace="urn:schemas-microsoft-com:xml-diffgram-v1" processContents="lax" />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="DispatchListsInsert">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="delivery" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="csoCode" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="cf" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="DispatchListsInsertResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="DispatchListsInsertResult" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="CheckDeliveryNo">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="deliveryNo" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="CheckDeliveryNoResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="CheckDeliveryNoResult" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetByDeliveryNo">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="deliveryNo" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetByDeliveryNoResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetByDeliveryNoResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/2001/XMLSchema" processContents="lax" />
+                  <s:any minOccurs="1" namespace="urn:schemas-microsoft-com:xml-diffgram-v1" processContents="lax" />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="LoginCheck">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="userNum" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="password" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="LoginCheckResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="LoginCheckResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/2001/XMLSchema" processContents="lax" />
+                  <s:any minOccurs="1" namespace="urn:schemas-microsoft-com:xml-diffgram-v1" processContents="lax" />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="RUser">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="a" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="p" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="ruser" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="RUserResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="RUserResult" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetHdNameAll">
+        <s:complexType />
+      </s:element>
+      <s:element name="GetHdNameAllResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetHdNameAllResult" type="tns:ArrayOfString" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetPrintNum">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="username" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="hdname" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetPrintNumResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetPrintNumResult" type="tns:ArrayOfInt" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ArrayOfInt">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="int" type="s:int" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="GetTuanNum">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="dtime" type="s:dateTime" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetTuanNumResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetTuanNumResult" type="tns:ArrayOfInt" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetWenTiDan">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="dtime" type="s:dateTime" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetWenTiDanResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetWenTiDanResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/2001/XMLSchema" processContents="lax" />
+                  <s:any minOccurs="1" namespace="urn:schemas-microsoft-com:xml-diffgram-v1" processContents="lax" />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="UpWTdan">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="tid" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="lx" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="UpWTdanResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="UpWTdanResult" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetHuiZong">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="address" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="dt" type="s:dateTime" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetHuiZongResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetHuiZongResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/2001/XMLSchema" processContents="lax" />
+                  <s:any minOccurs="1" namespace="urn:schemas-microsoft-com:xml-diffgram-v1" processContents="lax" />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="CheckMergerOrder">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="orderNo" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="CheckMergerOrderResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="CheckMergerOrderResult" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="GetNoKdTableSoapIn">
+    <wsdl:part name="parameters" element="tns:GetNoKdTable" />
+  </wsdl:message>
+  <wsdl:message name="GetNoKdTableSoapOut">
+    <wsdl:part name="parameters" element="tns:GetNoKdTableResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetNoKdTablemyheader">
+    <wsdl:part name="myheader" element="tns:myheader" />
+  </wsdl:message>
+  <wsdl:message name="UpKdFsSoapIn">
+    <wsdl:part name="parameters" element="tns:UpKdFs" />
+  </wsdl:message>
+  <wsdl:message name="UpKdFsSoapOut">
+    <wsdl:part name="parameters" element="tns:UpKdFsResponse" />
+  </wsdl:message>
+  <wsdl:message name="UpKdFsmyheader">
+    <wsdl:part name="myheader" element="tns:myheader" />
+  </wsdl:message>
+  <wsdl:message name="RealseLockuserSoapIn">
+    <wsdl:part name="parameters" element="tns:RealseLockuser" />
+  </wsdl:message>
+  <wsdl:message name="RealseLockuserSoapOut">
+    <wsdl:part name="parameters" element="tns:RealseLockuserResponse" />
+  </wsdl:message>
+  <wsdl:message name="RealseLockusermyheader">
+    <wsdl:part name="myheader" element="tns:myheader" />
+  </wsdl:message>
+  <wsdl:message name="RealseLockSoapIn">
+    <wsdl:part name="parameters" element="tns:RealseLock" />
+  </wsdl:message>
+  <wsdl:message name="RealseLockSoapOut">
+    <wsdl:part name="parameters" element="tns:RealseLockResponse" />
+  </wsdl:message>
+  <wsdl:message name="RealseLockmyheader">
+    <wsdl:part name="myheader" element="tns:myheader" />
+  </wsdl:message>
+  <wsdl:message name="GetPrintGroupBySoapIn">
+    <wsdl:part name="parameters" element="tns:GetPrintGroupBy" />
+  </wsdl:message>
+  <wsdl:message name="GetPrintGroupBySoapOut">
+    <wsdl:part name="parameters" element="tns:GetPrintGroupByResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetPrintGroupBymyheader">
+    <wsdl:part name="myheader" element="tns:myheader" />
+  </wsdl:message>
+  <wsdl:message name="GetPrintPartSoapIn">
+    <wsdl:part name="parameters" element="tns:GetPrintPart" />
+  </wsdl:message>
+  <wsdl:message name="GetPrintPartSoapOut">
+    <wsdl:part name="parameters" element="tns:GetPrintPartResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetPrintPartmyheader">
+    <wsdl:part name="myheader" element="tns:myheader" />
+  </wsdl:message>
+  <wsdl:message name="GetOrderInfo2SoapIn">
+    <wsdl:part name="parameters" element="tns:GetOrderInfo2" />
+  </wsdl:message>
+  <wsdl:message name="GetOrderInfo2SoapOut">
+    <wsdl:part name="parameters" element="tns:GetOrderInfo2Response" />
+  </wsdl:message>
+  <wsdl:message name="GetOrderInfo2myheader">
+    <wsdl:part name="myheader" element="tns:myheader" />
+  </wsdl:message>
+  <wsdl:message name="GetOrderInfoPartSoapIn">
+    <wsdl:part name="parameters" element="tns:GetOrderInfoPart" />
+  </wsdl:message>
+  <wsdl:message name="GetOrderInfoPartSoapOut">
+    <wsdl:part name="parameters" element="tns:GetOrderInfoPartResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetOrderInfoPartmyheader">
+    <wsdl:part name="myheader" element="tns:myheader" />
+  </wsdl:message>
+  <wsdl:message name="GetOrderInfoSoapIn">
+    <wsdl:part name="parameters" element="tns:GetOrderInfo" />
+  </wsdl:message>
+  <wsdl:message name="GetOrderInfoSoapOut">
+    <wsdl:part name="parameters" element="tns:GetOrderInfoResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetOrderInfomyheader">
+    <wsdl:part name="myheader" element="tns:myheader" />
+  </wsdl:message>
+  <wsdl:message name="GetkucunSoapIn">
+    <wsdl:part name="parameters" element="tns:Getkucun" />
+  </wsdl:message>
+  <wsdl:message name="GetkucunSoapOut">
+    <wsdl:part name="parameters" element="tns:GetkucunResponse" />
+  </wsdl:message>
+  <wsdl:message name="Getkucunmyheader">
+    <wsdl:part name="myheader" element="tns:myheader" />
+  </wsdl:message>
+  <wsdl:message name="GetorderNumSoapIn">
+    <wsdl:part name="parameters" element="tns:GetorderNum" />
+  </wsdl:message>
+  <wsdl:message name="GetorderNumSoapOut">
+    <wsdl:part name="parameters" element="tns:GetorderNumResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetorderNummyheader">
+    <wsdl:part name="myheader" element="tns:myheader" />
+  </wsdl:message>
+  <wsdl:message name="GetOrderDeliveryPrintStateNewSoapIn">
+    <wsdl:part name="parameters" element="tns:GetOrderDeliveryPrintStateNew" />
+  </wsdl:message>
+  <wsdl:message name="GetOrderDeliveryPrintStateNewSoapOut">
+    <wsdl:part name="parameters" element="tns:GetOrderDeliveryPrintStateNewResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetOrderDeliveryPrintStateNewmyheader">
+    <wsdl:part name="myheader" element="tns:myheader" />
+  </wsdl:message>
+  <wsdl:message name="DispatchListsInsertSoapIn">
+    <wsdl:part name="parameters" element="tns:DispatchListsInsert" />
+  </wsdl:message>
+  <wsdl:message name="DispatchListsInsertSoapOut">
+    <wsdl:part name="parameters" element="tns:DispatchListsInsertResponse" />
+  </wsdl:message>
+  <wsdl:message name="DispatchListsInsertmyheader">
+    <wsdl:part name="myheader" element="tns:myheader" />
+  </wsdl:message>
+  <wsdl:message name="CheckDeliveryNoSoapIn">
+    <wsdl:part name="parameters" element="tns:CheckDeliveryNo" />
+  </wsdl:message>
+  <wsdl:message name="CheckDeliveryNoSoapOut">
+    <wsdl:part name="parameters" element="tns:CheckDeliveryNoResponse" />
+  </wsdl:message>
+  <wsdl:message name="CheckDeliveryNomyheader">
+    <wsdl:part name="myheader" element="tns:myheader" />
+  </wsdl:message>
+  <wsdl:message name="GetByDeliveryNoSoapIn">
+    <wsdl:part name="parameters" element="tns:GetByDeliveryNo" />
+  </wsdl:message>
+  <wsdl:message name="GetByDeliveryNoSoapOut">
+    <wsdl:part name="parameters" element="tns:GetByDeliveryNoResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetByDeliveryNomyheader">
+    <wsdl:part name="myheader" element="tns:myheader" />
+  </wsdl:message>
+  <wsdl:message name="LoginCheckSoapIn">
+    <wsdl:part name="parameters" element="tns:LoginCheck" />
+  </wsdl:message>
+  <wsdl:message name="LoginCheckSoapOut">
+    <wsdl:part name="parameters" element="tns:LoginCheckResponse" />
+  </wsdl:message>
+  <wsdl:message name="LoginCheckmyheader">
+    <wsdl:part name="myheader" element="tns:myheader" />
+  </wsdl:message>
+  <wsdl:message name="RUserSoapIn">
+    <wsdl:part name="parameters" element="tns:RUser" />
+  </wsdl:message>
+  <wsdl:message name="RUserSoapOut">
+    <wsdl:part name="parameters" element="tns:RUserResponse" />
+  </wsdl:message>
+  <wsdl:message name="RUsermyheader">
+    <wsdl:part name="myheader" element="tns:myheader" />
+  </wsdl:message>
+  <wsdl:message name="GetHdNameAllSoapIn">
+    <wsdl:part name="parameters" element="tns:GetHdNameAll" />
+  </wsdl:message>
+  <wsdl:message name="GetHdNameAllSoapOut">
+    <wsdl:part name="parameters" element="tns:GetHdNameAllResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetHdNameAllmyheader">
+    <wsdl:part name="myheader" element="tns:myheader" />
+  </wsdl:message>
+  <wsdl:message name="GetPrintNumSoapIn">
+    <wsdl:part name="parameters" element="tns:GetPrintNum" />
+  </wsdl:message>
+  <wsdl:message name="GetPrintNumSoapOut">
+    <wsdl:part name="parameters" element="tns:GetPrintNumResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetPrintNummyheader">
+    <wsdl:part name="myheader" element="tns:myheader" />
+  </wsdl:message>
+  <wsdl:message name="GetTuanNumSoapIn">
+    <wsdl:part name="parameters" element="tns:GetTuanNum" />
+  </wsdl:message>
+  <wsdl:message name="GetTuanNumSoapOut">
+    <wsdl:part name="parameters" element="tns:GetTuanNumResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetTuanNummyheader">
+    <wsdl:part name="myheader" element="tns:myheader" />
+  </wsdl:message>
+  <wsdl:message name="GetWenTiDanSoapIn">
+    <wsdl:part name="parameters" element="tns:GetWenTiDan" />
+  </wsdl:message>
+  <wsdl:message name="GetWenTiDanSoapOut">
+    <wsdl:part name="parameters" element="tns:GetWenTiDanResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetWenTiDanmyheader">
+    <wsdl:part name="myheader" element="tns:myheader" />
+  </wsdl:message>
+  <wsdl:message name="UpWTdanSoapIn">
+    <wsdl:part name="parameters" element="tns:UpWTdan" />
+  </wsdl:message>
+  <wsdl:message name="UpWTdanSoapOut">
+    <wsdl:part name="parameters" element="tns:UpWTdanResponse" />
+  </wsdl:message>
+  <wsdl:message name="UpWTdanmyheader">
+    <wsdl:part name="myheader" element="tns:myheader" />
+  </wsdl:message>
+  <wsdl:message name="GetHuiZongSoapIn">
+    <wsdl:part name="parameters" element="tns:GetHuiZong" />
+  </wsdl:message>
+  <wsdl:message name="GetHuiZongSoapOut">
+    <wsdl:part name="parameters" element="tns:GetHuiZongResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetHuiZongmyheader">
+    <wsdl:part name="myheader" element="tns:myheader" />
+  </wsdl:message>
+  <wsdl:message name="CheckMergerOrderSoapIn">
+    <wsdl:part name="parameters" element="tns:CheckMergerOrder" />
+  </wsdl:message>
+  <wsdl:message name="CheckMergerOrderSoapOut">
+    <wsdl:part name="parameters" element="tns:CheckMergerOrderResponse" />
+  </wsdl:message>
+  <wsdl:message name="CheckMergerOrdermyheader">
+    <wsdl:part name="myheader" element="tns:myheader" />
+  </wsdl:message>
+  <wsdl:portType name="DeliveryPrintServiceSoap">
+    <wsdl:operation name="GetNoKdTable">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">获取没有快递方式的订单</wsdl:documentation>
+      <wsdl:input message="tns:GetNoKdTableSoapIn" />
+      <wsdl:output message="tns:GetNoKdTableSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="UpKdFs">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">更新快递方式</wsdl:documentation>
+      <wsdl:input message="tns:UpKdFsSoapIn" />
+      <wsdl:output message="tns:UpKdFsSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="RealseLockuser">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">用户解锁</wsdl:documentation>
+      <wsdl:input message="tns:RealseLockuserSoapIn" />
+      <wsdl:output message="tns:RealseLockuserSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="RealseLock">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">数据解锁</wsdl:documentation>
+      <wsdl:input message="tns:RealseLockSoapIn" />
+      <wsdl:output message="tns:RealseLockSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetPrintGroupBy">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">返回打印人员的打印数量，供参考</wsdl:documentation>
+      <wsdl:input message="tns:GetPrintGroupBySoapIn" />
+      <wsdl:output message="tns:GetPrintGroupBySoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetPrintPart">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">返回部分已经打印的订单，供参考</wsdl:documentation>
+      <wsdl:input message="tns:GetPrintPartSoapIn" />
+      <wsdl:output message="tns:GetPrintPartSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetOrderInfo2">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">获取订单表头，只返回快递单号</wsdl:documentation>
+      <wsdl:input message="tns:GetOrderInfo2SoapIn" />
+      <wsdl:output message="tns:GetOrderInfo2SoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetOrderInfoPart">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">获取订单表头部分信息</wsdl:documentation>
+      <wsdl:input message="tns:GetOrderInfoPartSoapIn" />
+      <wsdl:output message="tns:GetOrderInfoPartSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetOrderInfo">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">获取订单表头</wsdl:documentation>
+      <wsdl:input message="tns:GetOrderInfoSoapIn" />
+      <wsdl:output message="tns:GetOrderInfoSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Getkucun">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">获取已发货数量颜色尺码</wsdl:documentation>
+      <wsdl:input message="tns:GetkucunSoapIn" />
+      <wsdl:output message="tns:GetkucunSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetorderNum">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">获取打印数量信息</wsdl:documentation>
+      <wsdl:input message="tns:GetorderNumSoapIn" />
+      <wsdl:output message="tns:GetorderNumSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetOrderDeliveryPrintStateNew">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">返回需要打印的订单表头列表&lt;br&gt;发运方式列表id:ShippingMethods&lt;br&gt;订单号:orderNo</wsdl:documentation>
+      <wsdl:input message="tns:GetOrderDeliveryPrintStateNewSoapIn" />
+      <wsdl:output message="tns:GetOrderDeliveryPrintStateNewSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="DispatchListsInsert">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">快递单号:delivery&lt;br&gt;销售订单号:csoCode</wsdl:documentation>
+      <wsdl:input message="tns:DispatchListsInsertSoapIn" />
+      <wsdl:output message="tns:DispatchListsInsertSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="CheckDeliveryNo">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">检查快递单号是否重复</wsdl:documentation>
+      <wsdl:input message="tns:CheckDeliveryNoSoapIn" />
+      <wsdl:output message="tns:CheckDeliveryNoSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetByDeliveryNo">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">根据快递单号取订单</wsdl:documentation>
+      <wsdl:input message="tns:GetByDeliveryNoSoapIn" />
+      <wsdl:output message="tns:GetByDeliveryNoSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="LoginCheck">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">登录</wsdl:documentation>
+      <wsdl:input message="tns:LoginCheckSoapIn" />
+      <wsdl:output message="tns:LoginCheckSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="RUser">
+      <wsdl:input message="tns:RUserSoapIn" />
+      <wsdl:output message="tns:RUserSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetHdNameAll">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">获得所有活动名称</wsdl:documentation>
+      <wsdl:input message="tns:GetHdNameAllSoapIn" />
+      <wsdl:output message="tns:GetHdNameAllSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetPrintNum">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">获得打印数目参考信息</wsdl:documentation>
+      <wsdl:input message="tns:GetPrintNumSoapIn" />
+      <wsdl:output message="tns:GetPrintNumSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetTuanNum">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">获得订单打印相关数量</wsdl:documentation>
+      <wsdl:input message="tns:GetTuanNumSoapIn" />
+      <wsdl:output message="tns:GetTuanNumSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetWenTiDan">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">获得没有确认发货的订单信息</wsdl:documentation>
+      <wsdl:input message="tns:GetWenTiDanSoapIn" />
+      <wsdl:output message="tns:GetWenTiDanSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="UpWTdan">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">将问题单关闭</wsdl:documentation>
+      <wsdl:input message="tns:UpWTdanSoapIn" />
+      <wsdl:output message="tns:UpWTdanSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetHuiZong">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">汇总订单数据</wsdl:documentation>
+      <wsdl:input message="tns:GetHuiZongSoapIn" />
+      <wsdl:output message="tns:GetHuiZongSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="CheckMergerOrder">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">检查订单是不是存在</wsdl:documentation>
+      <wsdl:input message="tns:CheckMergerOrderSoapIn" />
+      <wsdl:output message="tns:CheckMergerOrderSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="DeliveryPrintServiceSoap" type="tns:DeliveryPrintServiceSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="GetNoKdTable">
+      <soap:operation soapAction="http://tempuri.org/GetNoKdTable" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+        <soap:header message="tns:GetNoKdTablemyheader" part="myheader" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpKdFs">
+      <soap:operation soapAction="http://tempuri.org/UpKdFs" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+        <soap:header message="tns:UpKdFsmyheader" part="myheader" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="RealseLockuser">
+      <soap:operation soapAction="http://tempuri.org/RealseLockuser" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+        <soap:header message="tns:RealseLockusermyheader" part="myheader" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="RealseLock">
+      <soap:operation soapAction="http://tempuri.org/RealseLock" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+        <soap:header message="tns:RealseLockmyheader" part="myheader" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetPrintGroupBy">
+      <soap:operation soapAction="http://tempuri.org/GetPrintGroupBy" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+        <soap:header message="tns:GetPrintGroupBymyheader" part="myheader" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetPrintPart">
+      <soap:operation soapAction="http://tempuri.org/GetPrintPart" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+        <soap:header message="tns:GetPrintPartmyheader" part="myheader" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetOrderInfo2">
+      <soap:operation soapAction="http://tempuri.org/GetOrderInfo2" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+        <soap:header message="tns:GetOrderInfo2myheader" part="myheader" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetOrderInfoPart">
+      <soap:operation soapAction="http://tempuri.org/GetOrderInfoPart" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+        <soap:header message="tns:GetOrderInfoPartmyheader" part="myheader" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetOrderInfo">
+      <soap:operation soapAction="http://tempuri.org/GetOrderInfo" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+        <soap:header message="tns:GetOrderInfomyheader" part="myheader" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Getkucun">
+      <soap:operation soapAction="http://tempuri.org/Getkucun" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+        <soap:header message="tns:Getkucunmyheader" part="myheader" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetorderNum">
+      <soap:operation soapAction="http://tempuri.org/GetorderNum" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+        <soap:header message="tns:GetorderNummyheader" part="myheader" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetOrderDeliveryPrintStateNew">
+      <soap:operation soapAction="http://tempuri.org/GetOrderDeliveryPrintStateNew" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+        <soap:header message="tns:GetOrderDeliveryPrintStateNewmyheader" part="myheader" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DispatchListsInsert">
+      <soap:operation soapAction="http://tempuri.org/DispatchListsInsert" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+        <soap:header message="tns:DispatchListsInsertmyheader" part="myheader" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CheckDeliveryNo">
+      <soap:operation soapAction="http://tempuri.org/CheckDeliveryNo" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+        <soap:header message="tns:CheckDeliveryNomyheader" part="myheader" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetByDeliveryNo">
+      <soap:operation soapAction="http://tempuri.org/GetByDeliveryNo" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+        <soap:header message="tns:GetByDeliveryNomyheader" part="myheader" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="LoginCheck">
+      <soap:operation soapAction="http://tempuri.org/LoginCheck" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+        <soap:header message="tns:LoginCheckmyheader" part="myheader" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="RUser">
+      <soap:operation soapAction="http://tempuri.org/RUser" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+        <soap:header message="tns:RUsermyheader" part="myheader" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetHdNameAll">
+      <soap:operation soapAction="http://tempuri.org/GetHdNameAll" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+        <soap:header message="tns:GetHdNameAllmyheader" part="myheader" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetPrintNum">
+      <soap:operation soapAction="http://tempuri.org/GetPrintNum" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+        <soap:header message="tns:GetPrintNummyheader" part="myheader" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetTuanNum">
+      <soap:operation soapAction="http://tempuri.org/GetTuanNum" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+        <soap:header message="tns:GetTuanNummyheader" part="myheader" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetWenTiDan">
+      <soap:operation soapAction="http://tempuri.org/GetWenTiDan" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+        <soap:header message="tns:GetWenTiDanmyheader" part="myheader" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpWTdan">
+      <soap:operation soapAction="http://tempuri.org/UpWTdan" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+        <soap:header message="tns:UpWTdanmyheader" part="myheader" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetHuiZong">
+      <soap:operation soapAction="http://tempuri.org/GetHuiZong" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+        <soap:header message="tns:GetHuiZongmyheader" part="myheader" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CheckMergerOrder">
+      <soap:operation soapAction="http://tempuri.org/CheckMergerOrder" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+        <soap:header message="tns:CheckMergerOrdermyheader" part="myheader" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="DeliveryPrintServiceSoap12" type="tns:DeliveryPrintServiceSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="GetNoKdTable">
+      <soap12:operation soapAction="http://tempuri.org/GetNoKdTable" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+        <soap12:header message="tns:GetNoKdTablemyheader" part="myheader" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpKdFs">
+      <soap12:operation soapAction="http://tempuri.org/UpKdFs" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+        <soap12:header message="tns:UpKdFsmyheader" part="myheader" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="RealseLockuser">
+      <soap12:operation soapAction="http://tempuri.org/RealseLockuser" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+        <soap12:header message="tns:RealseLockusermyheader" part="myheader" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="RealseLock">
+      <soap12:operation soapAction="http://tempuri.org/RealseLock" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+        <soap12:header message="tns:RealseLockmyheader" part="myheader" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetPrintGroupBy">
+      <soap12:operation soapAction="http://tempuri.org/GetPrintGroupBy" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+        <soap12:header message="tns:GetPrintGroupBymyheader" part="myheader" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetPrintPart">
+      <soap12:operation soapAction="http://tempuri.org/GetPrintPart" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+        <soap12:header message="tns:GetPrintPartmyheader" part="myheader" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetOrderInfo2">
+      <soap12:operation soapAction="http://tempuri.org/GetOrderInfo2" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+        <soap12:header message="tns:GetOrderInfo2myheader" part="myheader" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetOrderInfoPart">
+      <soap12:operation soapAction="http://tempuri.org/GetOrderInfoPart" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+        <soap12:header message="tns:GetOrderInfoPartmyheader" part="myheader" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetOrderInfo">
+      <soap12:operation soapAction="http://tempuri.org/GetOrderInfo" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+        <soap12:header message="tns:GetOrderInfomyheader" part="myheader" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Getkucun">
+      <soap12:operation soapAction="http://tempuri.org/Getkucun" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+        <soap12:header message="tns:Getkucunmyheader" part="myheader" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetorderNum">
+      <soap12:operation soapAction="http://tempuri.org/GetorderNum" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+        <soap12:header message="tns:GetorderNummyheader" part="myheader" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetOrderDeliveryPrintStateNew">
+      <soap12:operation soapAction="http://tempuri.org/GetOrderDeliveryPrintStateNew" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+        <soap12:header message="tns:GetOrderDeliveryPrintStateNewmyheader" part="myheader" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DispatchListsInsert">
+      <soap12:operation soapAction="http://tempuri.org/DispatchListsInsert" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+        <soap12:header message="tns:DispatchListsInsertmyheader" part="myheader" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CheckDeliveryNo">
+      <soap12:operation soapAction="http://tempuri.org/CheckDeliveryNo" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+        <soap12:header message="tns:CheckDeliveryNomyheader" part="myheader" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetByDeliveryNo">
+      <soap12:operation soapAction="http://tempuri.org/GetByDeliveryNo" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+        <soap12:header message="tns:GetByDeliveryNomyheader" part="myheader" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="LoginCheck">
+      <soap12:operation soapAction="http://tempuri.org/LoginCheck" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+        <soap12:header message="tns:LoginCheckmyheader" part="myheader" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="RUser">
+      <soap12:operation soapAction="http://tempuri.org/RUser" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+        <soap12:header message="tns:RUsermyheader" part="myheader" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetHdNameAll">
+      <soap12:operation soapAction="http://tempuri.org/GetHdNameAll" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+        <soap12:header message="tns:GetHdNameAllmyheader" part="myheader" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetPrintNum">
+      <soap12:operation soapAction="http://tempuri.org/GetPrintNum" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+        <soap12:header message="tns:GetPrintNummyheader" part="myheader" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetTuanNum">
+      <soap12:operation soapAction="http://tempuri.org/GetTuanNum" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+        <soap12:header message="tns:GetTuanNummyheader" part="myheader" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetWenTiDan">
+      <soap12:operation soapAction="http://tempuri.org/GetWenTiDan" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+        <soap12:header message="tns:GetWenTiDanmyheader" part="myheader" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpWTdan">
+      <soap12:operation soapAction="http://tempuri.org/UpWTdan" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+        <soap12:header message="tns:UpWTdanmyheader" part="myheader" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetHuiZong">
+      <soap12:operation soapAction="http://tempuri.org/GetHuiZong" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+        <soap12:header message="tns:GetHuiZongmyheader" part="myheader" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CheckMergerOrder">
+      <soap12:operation soapAction="http://tempuri.org/CheckMergerOrder" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+        <soap12:header message="tns:CheckMergerOrdermyheader" part="myheader" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="DeliveryPrintService">
+    <wsdl:port name="DeliveryPrintServiceSoap" binding="tns:DeliveryPrintServiceSoap">
+      <soap:address location="http://localhost:3494/DeliveryPrintService.asmx" />
+    </wsdl:port>
+    <wsdl:port name="DeliveryPrintServiceSoap12" binding="tns:DeliveryPrintServiceSoap12">
+      <soap12:address location="http://localhost:3494/DeliveryPrintService.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

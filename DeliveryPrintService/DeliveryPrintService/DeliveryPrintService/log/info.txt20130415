@@ -1,0 +1,378 @@
+set transaction isolation level repeatable read
+                    begin tran st 
+
+                    --drop table #mmm;
+                    select top (@oncenum)  id,Buyer_nick,Num,Created,Tid as OrderNo,Pcode,DeliveryNo   into #mmm from double12.dbo.ProductOrderInfo where (((Paccount is null) or (Paccount='')) and (IsRead=0 or (IsRead is null))  and (IsPrint=0 or (IsPrint is null)) and ExpressWay=@kdlx and hdname=@hd and ExpressWay!='没有') or (Paccount=@paccount and (IsPrint=0 or (IsPrint is null)) and IsRead=1 and ExpressWay=@kdlx and hdname=@hd and ExpressWay!='没有') order by Num,City;
+                    update double12.dbo.ProductOrderInfo  set Paccount=@paccount,IsRead=1,Stime=GETDATE() from #mmm where  double12.dbo.ProductOrderInfo.id=#mmm.id;
+                    select * from #mmm;
+                    drop table #mmm;
+
+                    commit tran st
+                        hwang1@2013-04-15 9:24:31
+set transaction isolation level repeatable read
+                    begin tran st 
+
+                    --drop table #mmm;
+                    select top (@oncenum)  id,Buyer_nick,Num,Created,Tid as OrderNo,Pcode,DeliveryNo   into #mmm from double12.dbo.ProductOrderInfo where (((Paccount is null) or (Paccount='')) and (IsRead=0 or (IsRead is null))  and (IsPrint=0 or (IsPrint is null)) and ExpressWay=@kdlx and hdname=@hd and ExpressWay!='没有') or (Paccount=@paccount and (IsPrint=0 or (IsPrint is null)) and IsRead=1 and ExpressWay=@kdlx and hdname=@hd and ExpressWay!='没有') order by Num,City;
+                    update double12.dbo.ProductOrderInfo  set Paccount=@paccount,IsRead=1,Stime=GETDATE() from #mmm where  double12.dbo.ProductOrderInfo.id=#mmm.id;
+                    select * from #mmm;
+                    drop table #mmm;
+
+                    commit tran st
+                        hwang1@2013-04-15 9:24:44
+存在209003018051364@2013-04-15 9:24:53
+set transaction isolation level repeatable read
+                    begin tran st 
+
+                    --drop table #mmm;
+                    select top (@oncenum)  id,Buyer_nick,Num,Created,Tid as OrderNo,Pcode,DeliveryNo   into #mmm from double12.dbo.ProductOrderInfo where (((Paccount is null) or (Paccount='')) and (IsRead=0 or (IsRead is null))  and (IsPrint=0 or (IsPrint is null)) and ExpressWay=@kdlx and hdname=@hd and ExpressWay!='没有') or (Paccount=@paccount and (IsPrint=0 or (IsPrint is null)) and IsRead=1 and ExpressWay=@kdlx and hdname=@hd and ExpressWay!='没有') order by Num,City;
+                    update double12.dbo.ProductOrderInfo  set Paccount=@paccount,IsRead=1,Stime=GETDATE() from #mmm where  double12.dbo.ProductOrderInfo.id=#mmm.id;
+                    select * from #mmm;
+                    drop table #mmm;
+
+                    commit tran st
+                        hwang1@2013-04-15 9:35:59
+存在209003018051364@2013-04-15 9:36:07
+set transaction isolation level repeatable read
+                    begin tran st 
+
+                    --drop table #mmm;
+                    select top (@oncenum)  id,Buyer_nick,Num,Created,Tid as OrderNo,Pcode,DeliveryNo   into #mmm from double12.dbo.ProductOrderInfo where (((Paccount is null) or (Paccount='')) and (IsRead=0 or (IsRead is null))  and (IsPrint=0 or (IsPrint is null)) and ExpressWay=@kdlx and hdname=@hd and ExpressWay!='没有') or (Paccount=@paccount and (IsPrint=0 or (IsPrint is null)) and IsRead=1 and ExpressWay=@kdlx and hdname=@hd and ExpressWay!='没有') order by Num,City;
+                    update double12.dbo.ProductOrderInfo  set Paccount=@paccount,IsRead=1,Stime=GETDATE() from #mmm where  double12.dbo.ProductOrderInfo.id=#mmm.id;
+                    select * from #mmm;
+                    drop table #mmm;
+
+                    commit tran st
+                        hwang1@2013-04-15 9:39:36
+set transaction isolation level repeatable read
+                    begin tran st 
+
+                    --drop table #mmm;
+                    select top (@oncenum)  id,Buyer_nick,Num,Created,Tid as OrderNo,Pcode,DeliveryNo   into #mmm from double12.dbo.ProductOrderInfo where (((Paccount is null) or (Paccount='')) and (IsRead=0 or (IsRead is null))  and (IsPrint=0 or (IsPrint is null)) and ExpressWay=@kdlx and hdname=@hd and ExpressWay!='没有') or (Paccount=@paccount and (IsPrint=0 or (IsPrint is null)) and IsRead=1 and ExpressWay=@kdlx and hdname=@hd and ExpressWay!='没有') order by Num,City;
+                    update double12.dbo.ProductOrderInfo  set Paccount=@paccount,IsRead=1,Stime=GETDATE() from #mmm where  double12.dbo.ProductOrderInfo.id=#mmm.id;
+                    select * from #mmm;
+                    drop table #mmm;
+
+                    commit tran st
+                        hwang1@2013-04-15 9:39:43
+存在209003018051364@2013-04-15 9:40:09
+set transaction isolation level repeatable read
+                    begin tran st 
+
+                    --drop table #mmm;
+                    select top (@oncenum)  id,Buyer_nick,Num,Created,Tid as OrderNo,Pcode,DeliveryNo   into #mmm from double12.dbo.ProductOrderInfo where (((Paccount is null) or (Paccount='')) and (IsRead=0 or (IsRead is null))  and (IsPrint=0 or (IsPrint is null)) and ExpressWay=@kdlx and hdname=@hd and ExpressWay!='没有') or (Paccount=@paccount and (IsPrint=0 or (IsPrint is null)) and IsRead=1 and ExpressWay=@kdlx and hdname=@hd and ExpressWay!='没有') order by Num,City;
+                    update double12.dbo.ProductOrderInfo  set Paccount=@paccount,IsRead=1,Stime=GETDATE() from #mmm where  double12.dbo.ProductOrderInfo.id=#mmm.id;
+                    select * from #mmm;
+                    drop table #mmm;
+
+                    commit tran st
+                        hwang1@2013-04-15 9:43:08
+存在209003018051364@2013-04-15 9:43:16
+set transaction isolation level repeatable read
+                    begin tran st 
+
+                    --drop table #mmm;
+                    select top (@oncenum)  id,Buyer_nick,Num,Created,Tid as OrderNo,Pcode,DeliveryNo   into #mmm from double12.dbo.ProductOrderInfo where (((Paccount is null) or (Paccount='')) and (IsRead=0 or (IsRead is null))  and (IsPrint=0 or (IsPrint is null)) and ExpressWay=@kdlx and hdname=@hd and ExpressWay!='没有') or (Paccount=@paccount and (IsPrint=0 or (IsPrint is null)) and IsRead=1 and ExpressWay=@kdlx and hdname=@hd and ExpressWay!='没有') order by Num,City;
+                    update double12.dbo.ProductOrderInfo  set Paccount=@paccount,IsRead=1,Stime=GETDATE() from #mmm where  double12.dbo.ProductOrderInfo.id=#mmm.id;
+                    select * from #mmm;
+                    drop table #mmm;
+
+                    commit tran st
+                        hwang1@2013-04-15 9:48:38
+存在209003018051364@2013-04-15 9:48:47
+set transaction isolation level repeatable read
+                    begin tran st 
+
+                    --drop table #mmm;
+                    select top (@oncenum)  id,Buyer_nick,Num,Created,Tid as OrderNo,Pcode,DeliveryNo   into #mmm from double12.dbo.ProductOrderInfo where (((Paccount is null) or (Paccount='')) and (IsRead=0 or (IsRead is null))  and (IsPrint=0 or (IsPrint is null)) and ExpressWay=@kdlx and hdname=@hd and ExpressWay!='没有') or (Paccount=@paccount and (IsPrint=0 or (IsPrint is null)) and IsRead=1 and ExpressWay=@kdlx and hdname=@hd and ExpressWay!='没有') order by Num,City;
+                    update double12.dbo.ProductOrderInfo  set Paccount=@paccount,IsRead=1,Stime=GETDATE() from #mmm where  double12.dbo.ProductOrderInfo.id=#mmm.id;
+                    select * from #mmm;
+                    drop table #mmm;
+
+                    commit tran st
+                        hwang1@2013-04-15 9:52:37
+存在209003018051364@2013-04-15 9:52:44
+set transaction isolation level repeatable read
+                    begin tran st 
+
+                    --drop table #mmm;
+                    select top (@oncenum)  id,Buyer_nick,Num,Created,Tid as OrderNo,Pcode,DeliveryNo   into #mmm from double12.dbo.ProductOrderInfo where (((Paccount is null) or (Paccount='')) and (IsRead=0 or (IsRead is null))  and (IsPrint=0 or (IsPrint is null)) and ExpressWay=@kdlx and hdname=@hd and ExpressWay!='没有') or (Paccount=@paccount and (IsPrint=0 or (IsPrint is null)) and IsRead=1 and ExpressWay=@kdlx and hdname=@hd and ExpressWay!='没有') order by Num,City;
+                    update double12.dbo.ProductOrderInfo  set Paccount=@paccount,IsRead=1,Stime=GETDATE() from #mmm where  double12.dbo.ProductOrderInfo.id=#mmm.id;
+                    select * from #mmm;
+                    drop table #mmm;
+
+                    commit tran st
+                        hwang1@2013-04-15 10:23:53
+存在209003018051364@2013-04-15 10:24:01
+set transaction isolation level repeatable read
+                    begin tran st 
+
+                    --drop table #mmm;
+                    select top (@oncenum)  id,Buyer_nick,Num,Created,Tid as OrderNo,Pcode,DeliveryNo   into #mmm from double12.dbo.ProductOrderInfo where (((Paccount is null) or (Paccount='')) and (IsRead=0 or (IsRead is null))  and (IsPrint=0 or (IsPrint is null)) and ExpressWay=@kdlx and hdname=@hd and ExpressWay!='没有') or (Paccount=@paccount and (IsPrint=0 or (IsPrint is null)) and IsRead=1 and ExpressWay=@kdlx and hdname=@hd and ExpressWay!='没有') order by Num,City;
+                    update double12.dbo.ProductOrderInfo  set Paccount=@paccount,IsRead=1,Stime=GETDATE() from #mmm where  double12.dbo.ProductOrderInfo.id=#mmm.id;
+                    select * from #mmm;
+                    drop table #mmm;
+
+                    commit tran st
+                        hwang1@2013-04-15 10:25:46
+存在209003018051364@2013-04-15 10:25:52
+set transaction isolation level repeatable read
+                    begin tran st 
+
+                    --drop table #mmm;
+                    select top (@oncenum)  id,Buyer_nick,Num,Created,Tid as OrderNo,Pcode,DeliveryNo   into #mmm from double12.dbo.ProductOrderInfo where (((Paccount is null) or (Paccount='')) and (IsRead=0 or (IsRead is null))  and (IsPrint=0 or (IsPrint is null)) and ExpressWay=@kdlx and hdname=@hd and ExpressWay!='没有') or (Paccount=@paccount and (IsPrint=0 or (IsPrint is null)) and IsRead=1 and ExpressWay=@kdlx and hdname=@hd and ExpressWay!='没有') order by Num,City;
+                    update double12.dbo.ProductOrderInfo  set Paccount=@paccount,IsRead=1,Stime=GETDATE() from #mmm where  double12.dbo.ProductOrderInfo.id=#mmm.id;
+                    select * from #mmm;
+                    drop table #mmm;
+
+                    commit tran st
+                        hwang1@2013-04-15 10:52:20
+set transaction isolation level repeatable read
+                    begin tran st 
+
+                    --drop table #mmm;
+                    select top (@oncenum)  id,Buyer_nick,Num,Created,Tid as OrderNo,Pcode,DeliveryNo   into #mmm from double12.dbo.ProductOrderInfo where (((Paccount is null) or (Paccount='')) and (IsRead=0 or (IsRead is null))  and (IsPrint=0 or (IsPrint is null)) and ExpressWay=@kdlx and hdname=@hd and ExpressWay!='没有') or (Paccount=@paccount and (IsPrint=0 or (IsPrint is null)) and IsRead=1 and ExpressWay=@kdlx and hdname=@hd and ExpressWay!='没有') order by Num,City;
+                    update double12.dbo.ProductOrderInfo  set Paccount=@paccount,IsRead=1,Stime=GETDATE() from #mmm where  double12.dbo.ProductOrderInfo.id=#mmm.id;
+                    select * from #mmm;
+                    drop table #mmm;
+
+                    commit tran st
+                        hwang1@2013-04-15 10:52:40
+set transaction isolation level repeatable read
+                    begin tran st 
+
+                    --drop table #mmm;
+                    select top (@oncenum)  id,Buyer_nick,Num,Created,Tid as OrderNo,Pcode,DeliveryNo   into #mmm from double12.dbo.ProductOrderInfo where (((Paccount is null) or (Paccount='')) and (IsRead=0 or (IsRead is null))  and (IsPrint=0 or (IsPrint is null)) and ExpressWay=@kdlx and hdname=@hd and ExpressWay!='没有') or (Paccount=@paccount and (IsPrint=0 or (IsPrint is null)) and IsRead=1 and ExpressWay=@kdlx and hdname=@hd and ExpressWay!='没有') order by Num,City;
+                    update double12.dbo.ProductOrderInfo  set Paccount=@paccount,IsRead=1,Stime=GETDATE() from #mmm where  double12.dbo.ProductOrderInfo.id=#mmm.id;
+                    select * from #mmm;
+                    drop table #mmm;
+
+                    commit tran st
+                        hwang1@2013-04-15 10:54:49
+存在246552591420286@2013-04-15 10:54:57
+存在209870582539985@2013-04-15 10:55:25
+存在209865055921913@2013-04-15 10:55:51
+存在209875909317423@2013-04-15 10:56:06
+set transaction isolation level repeatable read
+                    begin tran st 
+
+                    --drop table #mmm;
+                    select top (@oncenum)  id,Buyer_nick,Num,Created,Tid as OrderNo,Pcode,DeliveryNo   into #mmm from double12.dbo.ProductOrderInfo where (((Paccount is null) or (Paccount='')) and (IsRead=0 or (IsRead is null))  and (IsPrint=0 or (IsPrint is null)) and ExpressWay=@kdlx and hdname=@hd and ExpressWay!='没有') or (Paccount=@paccount and (IsPrint=0 or (IsPrint is null)) and IsRead=1 and ExpressWay=@kdlx and hdname=@hd and ExpressWay!='没有') order by Num,City;
+                    update double12.dbo.ProductOrderInfo  set Paccount=@paccount,IsRead=1,Stime=GETDATE() from #mmm where  double12.dbo.ProductOrderInfo.id=#mmm.id;
+                    select * from #mmm;
+                    drop table #mmm;
+
+                    commit tran st
+                        hwang1@2013-04-15 10:59:17
+存在246551755651219@2013-04-15 10:59:26
+存在326964242545552@2013-04-15 10:59:40
+set transaction isolation level repeatable read
+                    begin tran st 
+
+                    --drop table #mmm;
+                    select top (@oncenum)  id,Buyer_nick,Num,Created,Tid as OrderNo,Pcode,DeliveryNo   into #mmm from double12.dbo.ProductOrderInfo where (((Paccount is null) or (Paccount='')) and (IsRead=0 or (IsRead is null))  and (IsPrint=0 or (IsPrint is null)) and ExpressWay=@kdlx and hdname=@hd and ExpressWay!='没有') or (Paccount=@paccount and (IsPrint=0 or (IsPrint is null)) and IsRead=1 and ExpressWay=@kdlx and hdname=@hd and ExpressWay!='没有') order by Num,City;
+                    update double12.dbo.ProductOrderInfo  set Paccount=@paccount,IsRead=1,Stime=GETDATE() from #mmm where  double12.dbo.ProductOrderInfo.id=#mmm.id;
+                    select * from #mmm;
+                    drop table #mmm;
+
+                    commit tran st
+                        hwang1@2013-04-15 11:04:41
+存在246551755651219@2013-04-15 11:04:56
+存在326964242545552@2013-04-15 11:05:04
+set transaction isolation level repeatable read
+                    begin tran st 
+
+                    --drop table #mmm;
+                    select top (@oncenum)  id,Buyer_nick,Num,Created,Tid as OrderNo,Pcode,DeliveryNo   into #mmm from double12.dbo.ProductOrderInfo where (((Paccount is null) or (Paccount='')) and (IsRead=0 or (IsRead is null))  and (IsPrint=0 or (IsPrint is null)) and ExpressWay=@kdlx and hdname=@hd and ExpressWay!='没有') or (Paccount=@paccount and (IsPrint=0 or (IsPrint is null)) and IsRead=1 and ExpressWay=@kdlx and hdname=@hd and ExpressWay!='没有') order by Num,City;
+                    update double12.dbo.ProductOrderInfo  set Paccount=@paccount,IsRead=1,Stime=GETDATE() from #mmm where  double12.dbo.ProductOrderInfo.id=#mmm.id;
+                    select * from #mmm;
+                    drop table #mmm;
+
+                    commit tran st
+                        hwang1@2013-04-15 11:07:19
+存在246551755651219@2013-04-15 11:07:29
+存在326964242545552@2013-04-15 11:07:32
+set transaction isolation level repeatable read
+                    begin tran st 
+
+                    --drop table #mmm;
+                    select top (@oncenum)  id,Buyer_nick,Num,Created,Tid as OrderNo,Pcode,DeliveryNo   into #mmm from double12.dbo.ProductOrderInfo where (((Paccount is null) or (Paccount='')) and (IsRead=0 or (IsRead is null))  and (IsPrint=0 or (IsPrint is null)) and ExpressWay=@kdlx and hdname=@hd and ExpressWay!='没有') or (Paccount=@paccount and (IsPrint=0 or (IsPrint is null)) and IsRead=1 and ExpressWay=@kdlx and hdname=@hd and ExpressWay!='没有') order by Num,City;
+                    update double12.dbo.ProductOrderInfo  set Paccount=@paccount,IsRead=1,Stime=GETDATE() from #mmm where  double12.dbo.ProductOrderInfo.id=#mmm.id;
+                    select * from #mmm;
+                    drop table #mmm;
+
+                    commit tran st
+                        hwang1@2013-04-15 11:08:29
+存在246551755651219@2013-04-15 11:08:38
+存在326964242545552@2013-04-15 11:09:03
+存在246551755651219@2013-04-15 11:10:00
+set transaction isolation level repeatable read
+                    begin tran st 
+
+                    --drop table #mmm;
+                    select top (@oncenum)  id,Buyer_nick,Num,Created,Tid as OrderNo,Pcode,DeliveryNo   into #mmm from double12.dbo.ProductOrderInfo where (((Paccount is null) or (Paccount='')) and (IsRead=0 or (IsRead is null))  and (IsPrint=0 or (IsPrint is null)) and ExpressWay=@kdlx and hdname=@hd and ExpressWay!='没有') or (Paccount=@paccount and (IsPrint=0 or (IsPrint is null)) and IsRead=1 and ExpressWay=@kdlx and hdname=@hd and ExpressWay!='没有') order by Num,City;
+                    update double12.dbo.ProductOrderInfo  set Paccount=@paccount,IsRead=1,Stime=GETDATE() from #mmm where  double12.dbo.ProductOrderInfo.id=#mmm.id;
+                    select * from #mmm;
+                    drop table #mmm;
+
+                    commit tran st
+                        hwang1@2013-04-15 11:11:11
+存在246551755651219@2013-04-15 11:11:16
+存在326964242545552@2013-04-15 11:11:27
+set transaction isolation level repeatable read
+                    begin tran st 
+
+                    --drop table #mmm;
+                    select top (@oncenum)  id,Buyer_nick,Num,Created,Tid as OrderNo,Pcode,DeliveryNo   into #mmm from double12.dbo.ProductOrderInfo where (((Paccount is null) or (Paccount='')) and (IsRead=0 or (IsRead is null))  and (IsPrint=0 or (IsPrint is null)) and ExpressWay=@kdlx and hdname=@hd and ExpressWay!='没有') or (Paccount=@paccount and (IsPrint=0 or (IsPrint is null)) and IsRead=1 and ExpressWay=@kdlx and hdname=@hd and ExpressWay!='没有') order by Num,City;
+                    update double12.dbo.ProductOrderInfo  set Paccount=@paccount,IsRead=1,Stime=GETDATE() from #mmm where  double12.dbo.ProductOrderInfo.id=#mmm.id;
+                    select * from #mmm;
+                    drop table #mmm;
+
+                    commit tran st
+                        hwang1@2013-04-15 12:59:06
+存在246551755651219@2013-04-15 12:59:18
+set transaction isolation level repeatable read
+                    begin tran st 
+
+                    --drop table #mmm;
+                    select top (@oncenum)  id,Buyer_nick,Num,Created,Tid as OrderNo,Pcode,DeliveryNo   into #mmm from double12.dbo.ProductOrderInfo where (((Paccount is null) or (Paccount='')) and (IsRead=0 or (IsRead is null))  and (IsPrint=0 or (IsPrint is null)) and ExpressWay=@kdlx and hdname=@hd and ExpressWay!='没有') or (Paccount=@paccount and (IsPrint=0 or (IsPrint is null)) and IsRead=1 and ExpressWay=@kdlx and hdname=@hd and ExpressWay!='没有') order by Num,City;
+                    update double12.dbo.ProductOrderInfo  set Paccount=@paccount,IsRead=1,Stime=GETDATE() from #mmm where  double12.dbo.ProductOrderInfo.id=#mmm.id;
+                    select * from #mmm;
+                    drop table #mmm;
+
+                    commit tran st
+                        hwang1@2013-04-15 13:03:05
+存在246551755651219@2013-04-15 13:03:08
+set transaction isolation level repeatable read
+                    begin tran st 
+
+                    --drop table #mmm;
+                    select top (@oncenum)  id,Buyer_nick,Num,Created,Tid as OrderNo,Pcode,DeliveryNo   into #mmm from double12.dbo.ProductOrderInfo where (((Paccount is null) or (Paccount='')) and (IsRead=0 or (IsRead is null))  and (IsPrint=0 or (IsPrint is null)) and ExpressWay=@kdlx and hdname=@hd and ExpressWay!='没有') or (Paccount=@paccount and (IsPrint=0 or (IsPrint is null)) and IsRead=1 and ExpressWay=@kdlx and hdname=@hd and ExpressWay!='没有') order by Num,City;
+                    update double12.dbo.ProductOrderInfo  set Paccount=@paccount,IsRead=1,Stime=GETDATE() from #mmm where  double12.dbo.ProductOrderInfo.id=#mmm.id;
+                    select * from #mmm;
+                    drop table #mmm;
+
+                    commit tran st
+                        hwang1@2013-04-15 13:06:16
+存在246551755651219@2013-04-15 13:06:22
+存在326964242545552@2013-04-15 13:06:41
+set transaction isolation level repeatable read
+                    begin tran st 
+
+                    --drop table #mmm;
+                    select top (@oncenum)  id,Buyer_nick,Num,Created,Tid as OrderNo,Pcode,DeliveryNo   into #mmm from double12.dbo.ProductOrderInfo where (((Paccount is null) or (Paccount='')) and (IsRead=0 or (IsRead is null))  and (IsPrint=0 or (IsPrint is null)) and ExpressWay=@kdlx and hdname=@hd and ExpressWay!='没有') or (Paccount=@paccount and (IsPrint=0 or (IsPrint is null)) and IsRead=1 and ExpressWay=@kdlx and hdname=@hd and ExpressWay!='没有') order by Num,City;
+                    update double12.dbo.ProductOrderInfo  set Paccount=@paccount,IsRead=1,Stime=GETDATE() from #mmm where  double12.dbo.ProductOrderInfo.id=#mmm.id;
+                    select * from #mmm;
+                    drop table #mmm;
+
+                    commit tran st
+                        hwang1@2013-04-15 13:07:34
+存在246551755651219@2013-04-15 13:07:39
+set transaction isolation level repeatable read
+                    begin tran st 
+
+                    --drop table #mmm;
+                    select top (@oncenum)  id,Buyer_nick,Num,Created,Tid as OrderNo,Pcode,DeliveryNo   into #mmm from double12.dbo.ProductOrderInfo where (((Paccount is null) or (Paccount='')) and (IsRead=0 or (IsRead is null))  and (IsPrint=0 or (IsPrint is null)) and ExpressWay=@kdlx and hdname=@hd and ExpressWay!='没有') or (Paccount=@paccount and (IsPrint=0 or (IsPrint is null)) and IsRead=1 and ExpressWay=@kdlx and hdname=@hd and ExpressWay!='没有') order by Num,City;
+                    update double12.dbo.ProductOrderInfo  set Paccount=@paccount,IsRead=1,Stime=GETDATE() from #mmm where  double12.dbo.ProductOrderInfo.id=#mmm.id;
+                    select * from #mmm;
+                    drop table #mmm;
+
+                    commit tran st
+                        hwang1@2013-04-15 13:09:41
+存在246551755651219@2013-04-15 13:09:45
+存在326964242545552@2013-04-15 13:09:50
+存在246551755651219@2013-04-15 13:10:26
+存在326964242545552@2013-04-15 13:10:29
+set transaction isolation level repeatable read
+                    begin tran st 
+
+                    --drop table #mmm;
+                    select top (@oncenum)  id,Buyer_nick,Num,Created,Tid as OrderNo,Pcode,DeliveryNo   into #mmm from double12.dbo.ProductOrderInfo where (((Paccount is null) or (Paccount='')) and (IsRead=0 or (IsRead is null))  and (IsPrint=0 or (IsPrint is null)) and ExpressWay=@kdlx and hdname=@hd and ExpressWay!='没有') or (Paccount=@paccount and (IsPrint=0 or (IsPrint is null)) and IsRead=1 and ExpressWay=@kdlx and hdname=@hd and ExpressWay!='没有') order by Num,City;
+                    update double12.dbo.ProductOrderInfo  set Paccount=@paccount,IsRead=1,Stime=GETDATE() from #mmm where  double12.dbo.ProductOrderInfo.id=#mmm.id;
+                    select * from #mmm;
+                    drop table #mmm;
+
+                    commit tran st
+                        hwang1@2013-04-15 13:12:12
+存在246551755651219@2013-04-15 13:12:16
+存在326964242545552@2013-04-15 13:12:19
+set transaction isolation level repeatable read
+                    begin tran st 
+
+                    --drop table #mmm;
+                    select top (@oncenum)  id,Buyer_nick,Num,Created,Tid as OrderNo,Pcode,DeliveryNo   into #mmm from double12.dbo.ProductOrderInfo where (((Paccount is null) or (Paccount='')) and (IsRead=0 or (IsRead is null))  and (IsPrint=0 or (IsPrint is null)) and ExpressWay=@kdlx and hdname=@hd and ExpressWay!='没有') or (Paccount=@paccount and (IsPrint=0 or (IsPrint is null)) and IsRead=1 and ExpressWay=@kdlx and hdname=@hd and ExpressWay!='没有') order by Num,City;
+                    update double12.dbo.ProductOrderInfo  set Paccount=@paccount,IsRead=1,Stime=GETDATE() from #mmm where  double12.dbo.ProductOrderInfo.id=#mmm.id;
+                    select * from #mmm;
+                    drop table #mmm;
+
+                    commit tran st
+                        hwang1@2013-04-15 13:14:20
+存在246551755651219@2013-04-15 13:14:24
+存在326964242545552@2013-04-15 13:14:28
+set transaction isolation level repeatable read
+                    begin tran st 
+
+                    --drop table #mmm;
+                    select top (@oncenum)  id,Buyer_nick,Num,Created,Tid as OrderNo,Pcode,DeliveryNo   into #mmm from double12.dbo.ProductOrderInfo where (((Paccount is null) or (Paccount='')) and (IsRead=0 or (IsRead is null))  and (IsPrint=0 or (IsPrint is null)) and ExpressWay=@kdlx and hdname=@hd and ExpressWay!='没有') or (Paccount=@paccount and (IsPrint=0 or (IsPrint is null)) and IsRead=1 and ExpressWay=@kdlx and hdname=@hd and ExpressWay!='没有') order by Num,City;
+                    update double12.dbo.ProductOrderInfo  set Paccount=@paccount,IsRead=1,Stime=GETDATE() from #mmm where  double12.dbo.ProductOrderInfo.id=#mmm.id;
+                    select * from #mmm;
+                    drop table #mmm;
+
+                    commit tran st
+                        hwang1@2013-04-15 13:20:13
+存在246551755651219@2013-04-15 13:20:19
+存在326964242545552@2013-04-15 13:20:50
+set transaction isolation level repeatable read
+                    begin tran st 
+
+                    --drop table #mmm;
+                    select top (@oncenum)  id,Buyer_nick,Num,Created,Tid as OrderNo,Pcode,DeliveryNo   into #mmm from double12.dbo.ProductOrderInfo where (((Paccount is null) or (Paccount='')) and (IsRead=0 or (IsRead is null))  and (IsPrint=0 or (IsPrint is null)) and ExpressWay=@kdlx and hdname=@hd and ExpressWay!='没有') or (Paccount=@paccount and (IsPrint=0 or (IsPrint is null)) and IsRead=1 and ExpressWay=@kdlx and hdname=@hd and ExpressWay!='没有') order by Num,City;
+                    update double12.dbo.ProductOrderInfo  set Paccount=@paccount,IsRead=1,Stime=GETDATE() from #mmm where  double12.dbo.ProductOrderInfo.id=#mmm.id;
+                    select * from #mmm;
+                    drop table #mmm;
+
+                    commit tran st
+                        hwang1@2013-04-15 13:24:13
+存在246551755651219@2013-04-15 13:24:18
+set transaction isolation level repeatable read
+                    begin tran st 
+
+                    --drop table #mmm;
+                    select top (@oncenum)  id,Buyer_nick,Num,Created,Tid as OrderNo,Pcode,DeliveryNo   into #mmm from double12.dbo.ProductOrderInfo where (((Paccount is null) or (Paccount='')) and (IsRead=0 or (IsRead is null))  and (IsPrint=0 or (IsPrint is null)) and ExpressWay=@kdlx and hdname=@hd and ExpressWay!='没有') or (Paccount=@paccount and (IsPrint=0 or (IsPrint is null)) and IsRead=1 and ExpressWay=@kdlx and hdname=@hd and ExpressWay!='没有') order by Num,City;
+                    update double12.dbo.ProductOrderInfo  set Paccount=@paccount,IsRead=1,Stime=GETDATE() from #mmm where  double12.dbo.ProductOrderInfo.id=#mmm.id;
+                    select * from #mmm;
+                    drop table #mmm;
+
+                    commit tran st
+                        hwang1@2013-04-15 13:25:36
+存在246551755651219@2013-04-15 13:25:42
+set transaction isolation level repeatable read
+                    begin tran st 
+
+                    --drop table #mmm;
+                    select top (@oncenum)  id,Buyer_nick,Num,Created,Tid as OrderNo,Pcode,DeliveryNo   into #mmm from double12.dbo.ProductOrderInfo where (((Paccount is null) or (Paccount='')) and (IsRead=0 or (IsRead is null))  and (IsPrint=0 or (IsPrint is null)) and ExpressWay=@kdlx and hdname=@hd and ExpressWay!='没有') or (Paccount=@paccount and (IsPrint=0 or (IsPrint is null)) and IsRead=1 and ExpressWay=@kdlx and hdname=@hd and ExpressWay!='没有') order by Num,City;
+                    update double12.dbo.ProductOrderInfo  set Paccount=@paccount,IsRead=1,Stime=GETDATE() from #mmm where  double12.dbo.ProductOrderInfo.id=#mmm.id;
+                    select * from #mmm;
+                    drop table #mmm;
+
+                    commit tran st
+                        hwang1@2013-04-15 13:30:56
+存在246551755651219@2013-04-15 13:31:01
+存在326964242545552@2013-04-15 13:31:10
+set transaction isolation level repeatable read
+                    begin tran st 
+
+                    --drop table #mmm;
+                    select top (@oncenum)  id,Buyer_nick,Num,Created,Tid as OrderNo,Pcode,DeliveryNo   into #mmm from double12.dbo.ProductOrderInfo where (((Paccount is null) or (Paccount='')) and (IsRead=0 or (IsRead is null))  and (IsPrint=0 or (IsPrint is null)) and ExpressWay=@kdlx and hdname=@hd and ExpressWay!='没有') or (Paccount=@paccount and (IsPrint=0 or (IsPrint is null)) and IsRead=1 and ExpressWay=@kdlx and hdname=@hd and ExpressWay!='没有') order by Num,City;
+                    update double12.dbo.ProductOrderInfo  set Paccount=@paccount,IsRead=1,Stime=GETDATE() from #mmm where  double12.dbo.ProductOrderInfo.id=#mmm.id;
+                    select * from #mmm;
+                    drop table #mmm;
+
+                    commit tran st
+                        hwang1@2013-04-15 14:20:06
+存在246552591420286@2013-04-15 14:20:18
+存在209870582539985@2013-04-15 14:20:25
+存在209865055921913@2013-04-15 14:20:33
+存在246552591420286@2013-04-15 14:21:05
+存在209870582539985@2013-04-15 14:21:07
+存在209865055921913@2013-04-15 14:21:15

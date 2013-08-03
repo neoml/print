@@ -1,0 +1,111 @@
+<Configuration>
+  <SettingsComponent>
+    <string />
+    <integer />
+    <boolean>
+      <setting name="SolutionAnalysisEnabled">False</setting>
+    </boolean>
+  </SettingsComponent>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="B2EE92D1-FDCC-4DCB-9AF5-6DBF395C8E3B/f:DeliveryPrint.cs" caret="593" fromTop="19" />
+    </RecentFiles>
+    <RecentEdits />
+  </RecentFiles>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <UnitTestRunner>
+    <Providers />
+  </UnitTestRunner>
+  <UnitTestRunnerNUnit>
+    <NUnitInstallDir IsNull="False">
+    </NUnitInstallDir>
+    <UseAddins>Never</UseAddins>
+  </UnitTestRunnerNUnit>
+  <CompletionStatisticsManager>
+    <ItemStatistics item="Default">
+      <Item value="if" priority="8" />
+      <Item value="QuanFeng`0" priority="0" />
+      <Item value="printPiece" priority="0" />
+      <Item value="public" priority="5" />
+      <Item value="string" priority="10" />
+      <Item value="shippingMethods" priority="0" />
+      <Item value="shenTong" priority="12" />
+      <Item value="else" priority="2" />
+      <Item value="info" priority="0" />
+      <Item value="var" priority="4" />
+      <Item value="Convert`0" priority="0" />
+      <Item value="iscashOndelivery" priority="1" />
+      <Item value="false" priority="3" />
+      <Item value="private" priority="0" />
+      <Item value="void" priority="0" />
+      <Item value="bool" priority="1" />
+      <Item value="ref" priority="1" />
+      <Item value="EnvironmentVariableTarget`0" priority="0" />
+      <Item value="totalPrice" priority="0" />
+      <Item value="isPiecesday" priority="0" />
+      <Item value="listCollection" priority="2" />
+      <Item value="inventoryList" priority="1" />
+      <Item value="ShenTong`0" priority="1" />
+      <Item value="DataTable`0" priority="0" />
+      <Item value="DataTable" priority="0" />
+      <Item value="DistrictClassQiYu" priority="2" />
+      <Item value="MyService" priority="2" />
+      <Item value="code" priority="2" />
+      <Item value="s" priority="2" />
+      <Item value="itemCode" priority="0" />
+      <Item value="Length" priority="0" />
+      <Item value="return" priority="0" />
+      <Item value="addressQiYunTags" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:WindowsFormsApplication1.ShenTongInfo">
+      <Item value="GetWay" priority="1" />
+      <Item value="TheFarePays" priority="0" />
+      <Item value="Receipt" priority="0" />
+      <Item value="Remarks" priority="0" />
+      <Item value="ShippingPayment" priority="2" />
+      <Item value="PickupPayment" priority="1" />
+      <Item value="TotalAmount" priority="0" />
+      <Item value="Tid" priority="1" />
+      <Item value="cSCName" priority="0" />
+      <Item value="TotalPrice" priority="0" />
+      <Item value="GuestName" priority="0" />
+      <Item value="Province" priority="0" />
+      <Item value="salseType" priority="53" />
+      <Item value="ExpressMessage" priority="80" />
+      <Item value="shopName" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Convert">
+      <Item value="ToBoolean`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.String">
+      <Item value="Empty" priority="4" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:WindowsFormsApplication1.InventoryInfo">
+      <Item value="PosterImagePath" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.ComboBox">
+      <Item value="Text" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Data.DataTable">
+      <Item value="Rows" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Data.DataRowCollection">
+      <Item value="Count" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.String">
+      <Item value="Length" priority="1" />
+      <Item value="Substring`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="CSharpCodeCompletionContext">
+      <Item value="public" priority="30" />
+      <Item value="string" priority="92" />
+      <Item value="if" priority="61" />
+      <Item value="shenTong" priority="185" />
+      <Item value="else" priority="61" />
+      <Item value="OrderDeliveryPrintState`0" priority="30" />
+      <Item value="return" priority="30" />
+    </ItemStatistics>
+  </CompletionStatisticsManager>
+</Configuration>

@@ -1,0 +1,138 @@
+<Configuration>
+  <SettingsComponent>
+    <string />
+    <integer />
+    <boolean>
+      <setting name="SolutionAnalysisEnabled">False</setting>
+    </boolean>
+  </SettingsComponent>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="B2EE92D1-FDCC-4DCB-9AF5-6DBF395C8E3B/d:Web References/d:DeliveryPrintService/f:Reference.cs" caret="23087" fromTop="10" />
+      <File id="B2EE92D1-FDCC-4DCB-9AF5-6DBF395C8E3B/f:QuanFeng_1.cs" caret="372" fromTop="11" />
+      <File id="B2EE92D1-FDCC-4DCB-9AF5-6DBF395C8E3B/f:FrmLogin.cs" caret="6122" fromTop="28" />
+      <File id="B2EE92D1-FDCC-4DCB-9AF5-6DBF395C8E3B/f:PaperSizeGetter.cs" caret="1147" fromTop="23" />
+      <File id="B2EE92D1-FDCC-4DCB-9AF5-6DBF395C8E3B/f:ShenTongInfo.cs" caret="1789" fromTop="34" />
+      <File id="B2EE92D1-FDCC-4DCB-9AF5-6DBF395C8E3B/f:app.config" caret="965" fromTop="15" />
+      <File id="B2EE92D1-FDCC-4DCB-9AF5-6DBF395C8E3B/f:ShoplistingInfo.cs" caret="1003" fromTop="31" />
+      <File id="B2EE92D1-FDCC-4DCB-9AF5-6DBF395C8E3B/f:InventoryInfo.cs" caret="404" fromTop="16" />
+      <File id="B2EE92D1-FDCC-4DCB-9AF5-6DBF395C8E3B/f:DeliveryPrint.cs" caret="501" fromTop="14" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="B2EE92D1-FDCC-4DCB-9AF5-6DBF395C8E3B/f:DeliveryPrint.cs" caret="33640" fromTop="13" />
+      <File id="B2EE92D1-FDCC-4DCB-9AF5-6DBF395C8E3B/f:DeliveryPrint.cs" caret="35680" fromTop="16" />
+      <File id="B2EE92D1-FDCC-4DCB-9AF5-6DBF395C8E3B/f:DeliveryPrint.cs" caret="35980" fromTop="21" />
+      <File id="B2EE92D1-FDCC-4DCB-9AF5-6DBF395C8E3B/f:DeliveryPrint.cs" caret="36397" fromTop="28" />
+      <File id="B2EE92D1-FDCC-4DCB-9AF5-6DBF395C8E3B/f:DeliveryPrint.cs" caret="36879" fromTop="24" />
+      <File id="B2EE92D1-FDCC-4DCB-9AF5-6DBF395C8E3B/f:DeliveryPrint.cs" caret="40240" fromTop="26" />
+      <File id="B2EE92D1-FDCC-4DCB-9AF5-6DBF395C8E3B/f:DeliveryPrint.cs" caret="43127" fromTop="20" />
+      <File id="B2EE92D1-FDCC-4DCB-9AF5-6DBF395C8E3B/f:DeliveryPrint.cs" caret="43530" fromTop="26" />
+      <File id="B2EE92D1-FDCC-4DCB-9AF5-6DBF395C8E3B/f:DeliveryPrint.cs" caret="46801" fromTop="40" />
+      <File id="B2EE92D1-FDCC-4DCB-9AF5-6DBF395C8E3B/f:DeliveryPrint.cs" caret="48230" fromTop="25" />
+      <File id="B2EE92D1-FDCC-4DCB-9AF5-6DBF395C8E3B/f:DeliveryPrint.cs" caret="50086" fromTop="32" />
+      <File id="B2EE92D1-FDCC-4DCB-9AF5-6DBF395C8E3B/f:DeliveryPrint.cs" caret="51517" fromTop="36" />
+      <File id="B2EE92D1-FDCC-4DCB-9AF5-6DBF395C8E3B/f:DeliveryPrint.cs" caret="53377" fromTop="14" />
+      <File id="B2EE92D1-FDCC-4DCB-9AF5-6DBF395C8E3B/f:DeliveryPrint.cs" caret="54750" fromTop="33" />
+      <File id="B2EE92D1-FDCC-4DCB-9AF5-6DBF395C8E3B/f:DeliveryPrint.cs" caret="41667" fromTop="15" />
+      <File id="B2EE92D1-FDCC-4DCB-9AF5-6DBF395C8E3B/f:DeliveryPrint.cs" caret="38303" fromTop="21" />
+      <File id="B2EE92D1-FDCC-4DCB-9AF5-6DBF395C8E3B/f:DeliveryPrint.cs" caret="198249" fromTop="22" />
+      <File id="B2EE92D1-FDCC-4DCB-9AF5-6DBF395C8E3B/f:DeliveryPrint.cs" caret="201917" fromTop="22" />
+      <File id="B2EE92D1-FDCC-4DCB-9AF5-6DBF395C8E3B/f:DeliveryPrint.cs" caret="205295" fromTop="28" />
+      <File id="B2EE92D1-FDCC-4DCB-9AF5-6DBF395C8E3B/f:DeliveryPrint.cs" caret="208597" fromTop="18" />
+      <File id="B2EE92D1-FDCC-4DCB-9AF5-6DBF395C8E3B/f:DeliveryPrint.cs" caret="211881" fromTop="27" />
+      <File id="B2EE92D1-FDCC-4DCB-9AF5-6DBF395C8E3B/f:DeliveryPrint.cs" caret="215179" fromTop="24" />
+      <File id="B2EE92D1-FDCC-4DCB-9AF5-6DBF395C8E3B/f:DeliveryPrint.cs" caret="218476" fromTop="8" />
+      <File id="B2EE92D1-FDCC-4DCB-9AF5-6DBF395C8E3B/f:DeliveryPrint.cs" caret="164506" fromTop="25" />
+      <File id="B2EE92D1-FDCC-4DCB-9AF5-6DBF395C8E3B/f:DeliveryPrint.cs" caret="167928" fromTop="23" />
+      <File id="B2EE92D1-FDCC-4DCB-9AF5-6DBF395C8E3B/f:DeliveryPrint.cs" caret="171319" fromTop="25" />
+      <File id="B2EE92D1-FDCC-4DCB-9AF5-6DBF395C8E3B/f:DeliveryPrint.cs" caret="174782" fromTop="19" />
+      <File id="B2EE92D1-FDCC-4DCB-9AF5-6DBF395C8E3B/f:DeliveryPrint.cs" caret="178216" fromTop="26" />
+      <File id="B2EE92D1-FDCC-4DCB-9AF5-6DBF395C8E3B/f:DeliveryPrint.cs" caret="181440" fromTop="30" />
+      <File id="B2EE92D1-FDCC-4DCB-9AF5-6DBF395C8E3B/f:DeliveryPrint.cs" caret="184669" fromTop="24" />
+    </RecentEdits>
+  </RecentFiles>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <UnitTestRunner>
+    <Providers />
+  </UnitTestRunner>
+  <UnitTestRunnerNUnit>
+    <NUnitInstallDir IsNull="False">
+    </NUnitInstallDir>
+    <UseAddins>Never</UseAddins>
+  </UnitTestRunnerNUnit>
+  <CompletionStatisticsManager>
+    <ItemStatistics item="Default">
+      <Item value="if" priority="8" />
+      <Item value="QuanFeng`0" priority="0" />
+      <Item value="printPiece" priority="0" />
+      <Item value="public" priority="5" />
+      <Item value="string" priority="10" />
+      <Item value="shippingMethods" priority="0" />
+      <Item value="shenTong" priority="12" />
+      <Item value="else" priority="2" />
+      <Item value="info" priority="0" />
+      <Item value="var" priority="4" />
+      <Item value="Convert`0" priority="0" />
+      <Item value="iscashOndelivery" priority="1" />
+      <Item value="false" priority="3" />
+      <Item value="private" priority="0" />
+      <Item value="void" priority="0" />
+      <Item value="bool" priority="1" />
+      <Item value="ref" priority="1" />
+      <Item value="EnvironmentVariableTarget`0" priority="0" />
+      <Item value="totalPrice" priority="0" />
+      <Item value="isPiecesday" priority="0" />
+      <Item value="listCollection" priority="2" />
+      <Item value="inventoryList" priority="1" />
+      <Item value="ShenTong`0" priority="1" />
+      <Item value="DataTable`0" priority="0" />
+      <Item value="DataTable" priority="0" />
+      <Item value="DistrictClassQiYu" priority="2" />
+      <Item value="MyService" priority="2" />
+      <Item value="code" priority="2" />
+      <Item value="s" priority="2" />
+      <Item value="itemCode" priority="0" />
+      <Item value="Length" priority="0" />
+      <Item value="return" priority="0" />
+      <Item value="addressQiYunTags" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:WindowsFormsApplication1.ShenTongInfo">
+      <Item value="GetWay" priority="1" />
+      <Item value="TheFarePays" priority="0" />
+      <Item value="Receipt" priority="0" />
+      <Item value="Remarks" priority="0" />
+      <Item value="ShippingPayment" priority="2" />
+      <Item value="PickupPayment" priority="1" />
+      <Item value="TotalAmount" priority="0" />
+      <Item value="Tid" priority="1" />
+      <Item value="cSCName" priority="0" />
+      <Item value="TotalPrice" priority="0" />
+      <Item value="GuestName" priority="0" />
+      <Item value="Province" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Convert">
+      <Item value="ToBoolean`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.String">
+      <Item value="Empty" priority="4" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:WindowsFormsApplication1.InventoryInfo">
+      <Item value="PosterImagePath" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.ComboBox">
+      <Item value="Text" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Data.DataTable">
+      <Item value="Rows" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Data.DataRowCollection">
+      <Item value="Count" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.String">
+      <Item value="Length" priority="1" />
+      <Item value="Substring`0" priority="0" />
+    </ItemStatistics>
+  </CompletionStatisticsManager>
+</Configuration>

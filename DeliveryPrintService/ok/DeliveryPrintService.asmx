@@ -1,0 +1,1 @@
+﻿<%@ WebService Language="C#" CodeBehind="DeliveryPrintService.asmx.cs" Class="DeliveryPrintService.DeliveryPrintService" %>

@@ -1,0 +1,8 @@
+<Modules>
+  <Module PersistentId="B2EE92D1-FDCC-4DCB-9AF5-6DBF395C8E3B" ModuleId="DeliveryPrint" />
+  <Module PersistentId="d:Miscellaneous Files" ModuleId="System.Windows.Forms" />
+  <Module PersistentId="0F1FE619-25A5-40B9-9593-30A270FDF0DE" ModuleId="TaoBao" />
+  <Module PersistentId="289DD553-D1F3-4F9F-87E6-0F88FE1E7371" ModuleId="DPShare" />
+  <Module PersistentId="505E6D1E-0170-4E1B-B381-516571E60B6A" ModuleId="test" />
+  <Module PersistentId="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" ModuleId="System.Windows.Forms_1" />
+</Modules>

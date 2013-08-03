@@ -1,0 +1,503 @@
+<Configuration>
+  <SettingsComponent>
+    <string />
+    <integer />
+    <boolean>
+      <setting name="livetemplates.csharp.usevar">True</setting>
+      <setting name="SolutionAnalysisEnabled">False</setting>
+    </boolean>
+  </SettingsComponent>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="0F1FE619-25A5-40B9-9593-30A270FDF0DE/d:Pdb/d:Ml/f:MMj.cs" caret="0" fromTop="0" />
+      <File id="0F1FE619-25A5-40B9-9593-30A270FDF0DE/d:Pdb/d:Ml/f:MpAlert.cs" caret="0" fromTop="0" />
+      <File id="0F1FE619-25A5-40B9-9593-30A270FDF0DE/d:Pdb/d:Ml/f:MShopAlert.cs" caret="0" fromTop="0" />
+      <File id="0F1FE619-25A5-40B9-9593-30A270FDF0DE/d:Pdb/f:PClass.cs" caret="0" fromTop="0" />
+      <File id="0F1FE619-25A5-40B9-9593-30A270FDF0DE/d:Pdb/f:PMj.cs" caret="0" fromTop="0" />
+      <File id="0F1FE619-25A5-40B9-9593-30A270FDF0DE/d:Pdb/f:PpAlert.cs" caret="0" fromTop="0" />
+      <File id="0F1FE619-25A5-40B9-9593-30A270FDF0DE/d:Pdb/f:PCpKeyWord.cs" caret="0" fromTop="0" />
+      <File id="0F1FE619-25A5-40B9-9593-30A270FDF0DE/f:Form_msg.cs" caret="146" fromTop="5" />
+      <File id="0F1FE619-25A5-40B9-9593-30A270FDF0DE/d:Ps/f:Psale.cs" caret="0" fromTop="0" />
+      <File id="0F1FE619-25A5-40B9-9593-30A270FDF0DE/d:Ps/f:Pkeys.cs" caret="24496" fromTop="0" />
+      <File id="B2EE92D1-FDCC-4DCB-9AF5-6DBF395C8E3B/f:Form_help.cs" caret="626" fromTop="25" />
+      <File id="B2EE92D1-FDCC-4DCB-9AF5-6DBF395C8E3B/d:Properties/f:Settings.Designer.cs" caret="0" fromTop="0" />
+      <File id="B2EE92D1-FDCC-4DCB-9AF5-6DBF395C8E3B/d:Properties/f:Resources.Designer.cs" caret="0" fromTop="0" />
+      <File id="B2EE92D1-FDCC-4DCB-9AF5-6DBF395C8E3B/d:Properties/f:AssemblyInfo.cs" caret="0" fromTop="0" />
+      <File id="0F1FE619-25A5-40B9-9593-30A270FDF0DE/f:TaoBaoForm.cs" caret="0" fromTop="0" />
+      <File id="0F1FE619-25A5-40B9-9593-30A270FDF0DE/d:Ps/f:Msearch.cs" caret="33814" fromTop="21" />
+      <File id="0F1FE619-25A5-40B9-9593-30A270FDF0DE/d:Ps/f:MjOnline.cs" caret="18887" fromTop="43" />
+      <File id="505E6D1E-0170-4E1B-B381-516571E60B6A/d:Web References/d:DeliveryPrintService/f:Reference.cs" caret="5999" fromTop="21" />
+      <File id="0F1FE619-25A5-40B9-9593-30A270FDF0DE/d:Pdb/f:PropertyComparer.cs" caret="687" fromTop="17" />
+      <File id="B2EE92D1-FDCC-4DCB-9AF5-6DBF395C8E3B/f:Program.cs" caret="283" fromTop="13" />
+      <File id="505E6D1E-0170-4E1B-B381-516571E60B6A/f:Form1.cs" caret="2244" fromTop="37" />
+      <File id="B2EE92D1-FDCC-4DCB-9AF5-6DBF395C8E3B/f:ShenTongInfo.cs" caret="0" fromTop="0" />
+      <File id="B2EE92D1-FDCC-4DCB-9AF5-6DBF395C8E3B/f:EmsInfo.cs" caret="0" fromTop="0" />
+      <File id="B2EE92D1-FDCC-4DCB-9AF5-6DBF395C8E3B/f:Form_jiesuo.cs" caret="537" fromTop="0" />
+      <File id="B2EE92D1-FDCC-4DCB-9AF5-6DBF395C8E3B/f:PathConfig.xml" caret="268" fromTop="6" />
+      <File id="B2EE92D1-FDCC-4DCB-9AF5-6DBF395C8E3B/f:app.config" caret="950" fromTop="14" />
+      <File id="B2EE92D1-FDCC-4DCB-9AF5-6DBF395C8E3B/f:FrmLogin.cs" caret="3459" fromTop="0" />
+      <File id="B2EE92D1-FDCC-4DCB-9AF5-6DBF395C8E3B/f:Form_PrintAllOk.cs" caret="3184" fromTop="5" />
+      <File id="B2EE92D1-FDCC-4DCB-9AF5-6DBF395C8E3B/f:Form_NoFaHuo.cs" caret="2226" fromTop="9" />
+      <File id="B2EE92D1-FDCC-4DCB-9AF5-6DBF395C8E3B/d:Image/f:DeliveryPrint.cs" caret="14784" fromTop="15" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="B2EE92D1-FDCC-4DCB-9AF5-6DBF395C8E3B/f:Form_PrintAllOk.cs" caret="4119" fromTop="21" />
+      <File id="B2EE92D1-FDCC-4DCB-9AF5-6DBF395C8E3B/f:Form_PrintAllOk.cs" caret="6061" fromTop="19" />
+      <File id="B2EE92D1-FDCC-4DCB-9AF5-6DBF395C8E3B/d:Image/f:DeliveryPrint.cs" caret="75186" fromTop="10" />
+      <File id="B2EE92D1-FDCC-4DCB-9AF5-6DBF395C8E3B/f:FrmLogin.cs" caret="5673" fromTop="5" />
+      <File id="B2EE92D1-FDCC-4DCB-9AF5-6DBF395C8E3B/f:FrmLogin.cs" caret="7535" fromTop="21" />
+      <File id="B2EE92D1-FDCC-4DCB-9AF5-6DBF395C8E3B/f:FrmLogin.cs" caret="7491" fromTop="20" />
+      <File id="B2EE92D1-FDCC-4DCB-9AF5-6DBF395C8E3B/f:FrmLogin.cs" caret="6722" fromTop="12" />
+      <File id="B2EE92D1-FDCC-4DCB-9AF5-6DBF395C8E3B/d:Image/f:DeliveryPrint.cs" caret="7174" fromTop="11" />
+      <File id="B2EE92D1-FDCC-4DCB-9AF5-6DBF395C8E3B/d:Image/f:DeliveryPrint.cs" caret="5397" fromTop="16" />
+      <File id="B2EE92D1-FDCC-4DCB-9AF5-6DBF395C8E3B/d:Image/f:DeliveryPrint.cs" caret="5264" fromTop="11" />
+      <File id="B2EE92D1-FDCC-4DCB-9AF5-6DBF395C8E3B/f:FrmLogin.cs" caret="7187" fromTop="11" />
+      <File id="B2EE92D1-FDCC-4DCB-9AF5-6DBF395C8E3B/d:Image/f:DeliveryPrint.cs" caret="2706" fromTop="21" />
+      <File id="B2EE92D1-FDCC-4DCB-9AF5-6DBF395C8E3B/f:Form_PrintAllOk.cs" caret="9058" fromTop="59" />
+      <File id="B2EE92D1-FDCC-4DCB-9AF5-6DBF395C8E3B/f:FrmLogin.cs" caret="3473" fromTop="0" />
+      <File id="B2EE92D1-FDCC-4DCB-9AF5-6DBF395C8E3B/f:PathConfig.xml" caret="79" fromTop="1" />
+      <File id="B2EE92D1-FDCC-4DCB-9AF5-6DBF395C8E3B/f:FrmLogin.cs" caret="6206" fromTop="6" />
+      <File id="B2EE92D1-FDCC-4DCB-9AF5-6DBF395C8E3B/f:FrmLogin.cs" caret="10353" fromTop="0" />
+      <File id="B2EE92D1-FDCC-4DCB-9AF5-6DBF395C8E3B/d:Image/f:DeliveryPrint.cs" caret="90239" fromTop="13" />
+      <File id="B2EE92D1-FDCC-4DCB-9AF5-6DBF395C8E3B/d:Image/f:DeliveryPrint.cs" caret="91192" fromTop="9" />
+      <File id="B2EE92D1-FDCC-4DCB-9AF5-6DBF395C8E3B/d:Image/f:DeliveryPrint.cs" caret="91192" fromTop="9" />
+      <File id="B2EE92D1-FDCC-4DCB-9AF5-6DBF395C8E3B/f:Form_NoFaHuo.cs" caret="2242" fromTop="18" />
+      <File id="B2EE92D1-FDCC-4DCB-9AF5-6DBF395C8E3B/f:Form_NoFaHuo.cs" caret="694" fromTop="19" />
+      <File id="B2EE92D1-FDCC-4DCB-9AF5-6DBF395C8E3B/d:Image/f:DeliveryPrint.cs" caret="91159" fromTop="17" />
+      <File id="B2EE92D1-FDCC-4DCB-9AF5-6DBF395C8E3B/f:Form_NoFaHuo.cs" caret="1241" fromTop="17" />
+      <File id="B2EE92D1-FDCC-4DCB-9AF5-6DBF395C8E3B/f:Form_PrintAllOk.cs" caret="9058" fromTop="5" />
+      <File id="B2EE92D1-FDCC-4DCB-9AF5-6DBF395C8E3B/f:Form_NoFaHuo.cs" caret="1563" fromTop="9" />
+      <File id="B2EE92D1-FDCC-4DCB-9AF5-6DBF395C8E3B/f:Form_NoFaHuo.cs" caret="143" fromTop="4" />
+      <File id="B2EE92D1-FDCC-4DCB-9AF5-6DBF395C8E3B/f:Form_NoFaHuo.cs" caret="534" fromTop="17" />
+      <File id="B2EE92D1-FDCC-4DCB-9AF5-6DBF395C8E3B/f:Form_NoFaHuo.cs" caret="2226" fromTop="9" />
+      <File id="B2EE92D1-FDCC-4DCB-9AF5-6DBF395C8E3B/f:Form_NoFaHuo.cs" caret="2242" fromTop="9" />
+    </RecentEdits>
+  </RecentFiles>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <UnitTestRunner>
+    <Providers />
+  </UnitTestRunner>
+  <UnitTestRunnerNUnit>
+    <NUnitInstallDir IsNull="False">
+    </NUnitInstallDir>
+    <UseAddins>Never</UseAddins>
+  </UnitTestRunnerNUnit>
+  <CompletionStatisticsManager>
+    <ItemStatistics item="Default">
+      <Item value="int" priority="20" />
+      <Item value="OnceNum" priority="6" />
+      <Item value="cmbShopMethod" priority="1" />
+      <Item value="if" priority="57" />
+      <Item value="private" priority="16" />
+      <Item value="string" priority="42" />
+      <Item value="kdlx" priority="2" />
+      <Item value="dp" priority="0" />
+      <Item value="m_Account" priority="1" />
+      <Item value="shenTong" priority="5" />
+      <Item value="saveOk" priority="6" />
+      <Item value="false" priority="32" />
+      <Item value="List" priority="4" />
+      <Item value="MyService" priority="12" />
+      <Item value="ll" priority="16" />
+      <Item value="null" priority="15" />
+      <Item value="Length" priority="3" />
+      <Item value="comboBox_hdname" priority="2" />
+      <Item value="else" priority="27" />
+      <Item value="MessageBox`0" priority="10" />
+      <Item value="void" priority="8" />
+      <Item value="gethdname`0" priority="1" />
+      <Item value="hdname" priority="6" />
+      <Item value="label_printuser" priority="0" />
+      <Item value="GetPrintNum`0" priority="1" />
+      <Item value="label_allnum" priority="0" />
+      <Item value="label_oknum" priority="0" />
+      <Item value="label_mynum" priority="0" />
+      <Item value="timer1" priority="9" />
+      <Item value="renew" priority="2" />
+      <Item value="button_renew" priority="0" />
+      <Item value="true" priority="15" />
+      <Item value="timer1_Tick`0" priority="1" />
+      <Item value="this" priority="13" />
+      <Item value="new" priority="17" />
+      <Item value="EventArgs" priority="3" />
+      <Item value="Form_PrintAllOk`0" priority="1" />
+      <Item value="Form_PrintAllOk" priority="1" />
+      <Item value="pro" priority="5" />
+      <Item value="DataTable`0" priority="5" />
+      <Item value="dt" priority="7" />
+      <Item value="DataTable" priority="0" />
+      <Item value="continue" priority="2" />
+      <Item value="ordernum" priority="4" />
+      <Item value="DataRow`0" priority="1" />
+      <Item value="dtr" priority="1" />
+      <Item value="kddh" priority="2" />
+      <Item value="deliveryNo" priority="8" />
+      <Item value="var" priority="1" />
+      <Item value="okddh" priority="2" />
+      <Item value="fromid" priority="8" />
+      <Item value="getprintpartok`0" priority="0" />
+      <Item value="button_next" priority="1" />
+      <Item value="checknext`0" priority="1" />
+      <Item value="StringBuilder" priority="2" />
+      <Item value="sb" priority="6" />
+      <Item value="List&lt;string&gt;" priority="1" />
+      <Item value="foreach" priority="3" />
+      <Item value="return" priority="11" />
+      <Item value="CheckPrintOk`0" priority="3" />
+      <Item value="System" priority="2" />
+      <Item value="DateTime`0" priority="5" />
+      <Item value="ee" priority="2" />
+      <Item value="lastid" priority="2" />
+      <Item value="GetNumGroupBy`0" priority="1" />
+      <Item value="cf" priority="0" />
+      <Item value="Form_help`0" priority="1" />
+      <Item value="fh" priority="1" />
+      <Item value="statusStrip1" priority="0" />
+      <Item value="toolStripStatusLabel1" priority="4" />
+      <Item value="Color" priority="0" />
+      <Item value="statusnumnow" priority="2" />
+      <Item value="statusnum" priority="0" />
+      <Item value="dataGridView_groupbyprint" priority="1" />
+      <Item value="dataGridView_allprintok" priority="0" />
+      <Item value="textBox_ordernum" priority="2" />
+      <Item value="orderunm" priority="1" />
+      <Item value="ShowInTaskbar" priority="0" />
+      <Item value="textBox_kddh" priority="1" />
+      <Item value="mjid" priority="1" />
+      <Item value="textBox_maijia" priority="1" />
+      <Item value="caozuo" priority="1" />
+      <Item value="textBox_caozuo" priority="1" />
+      <Item value="shijian" priority="2" />
+      <Item value="dateTimePicker1" priority="2" />
+      <Item value="textBox_huodongname" priority="1" />
+      <Item value="ddtime" priority="1" />
+      <Item value="dateTimePicker2" priority="1" />
+      <Item value="bool" priority="4" />
+      <Item value="ddtimeselect" priority="2" />
+      <Item value="ptimeselect" priority="2" />
+      <Item value="getkddh" priority="1" />
+      <Item value="txtPrintPiece" priority="2" />
+      <Item value="printPiece" priority="2" />
+      <Item value="dataGridView1" priority="31" />
+      <Item value="noprint" priority="2" />
+      <Item value="row" priority="0" />
+      <Item value="txtData" priority="0" />
+      <Item value="DataGridViewRow`0" priority="2" />
+      <Item value="in" priority="1" />
+      <Item value="StringBuilder`0" priority="1" />
+      <Item value="dr" priority="4" />
+      <Item value="fzrlock" priority="2" />
+      <Item value="SpecialVarFieldDefinition`0" priority="0" />
+      <Item value="textBox1" priority="12" />
+      <Item value="s" priority="3" />
+      <Item value="CheckDeliveryNoAndOK`0" priority="0" />
+      <Item value="ctrl" priority="1" />
+      <Item value="setalldisable`0" priority="0" />
+      <Item value="setallenable`0" priority="0" />
+      <Item value="i" priority="7" />
+      <Item value="DataGridView`0" priority="1" />
+      <Item value="DataGridView" priority="1" />
+      <Item value="drv" priority="4" />
+      <Item value="button1" priority="0" />
+      <Item value="length" priority="0" />
+      <Item value="strOrderNo" priority="0" />
+      <Item value="btnSelect" priority="0" />
+      <Item value="Color`0" priority="4" />
+      <Item value="tt" priority="0" />
+      <Item value="f" priority="1" />
+      <Item value="str" priority="1" />
+      <Item value="break" priority="3" />
+      <Item value="jj" priority="0" />
+      <Item value="result" priority="0" />
+      <Item value="RowNotInTableException`0" priority="0" />
+      <Item value="rowin" priority="4" />
+      <Item value="public" priority="3" />
+      <Item value="CookieContainer" priority="0" />
+      <Item value="cookie" priority="0" />
+      <Item value="DeliveryPrintService`0" priority="0" />
+      <Item value="DeliveryPrintServiceSoap`0" priority="0" />
+      <Item value="ToString`0" priority="0" />
+      <Item value="district" priority="7" />
+      <Item value="k" priority="2" />
+      <Item value="city" priority="2" />
+      <Item value="dz" priority="10" />
+      <Item value="dazi`0" priority="0" />
+      <Item value="ii" priority="0" />
+      <Item value="object" priority="0" />
+      <Item value="Object`0" priority="0" />
+      <Item value="for" priority="0" />
+      <Item value="AppDomain`0" priority="0" />
+      <Item value="Threading" priority="0" />
+      <Item value="Thread`0" priority="0" />
+      <Item value="DateTime1" priority="0" />
+      <Item value="Form`0" priority="0" />
+      <Item value="Form_jiesuo`0" priority="0" />
+      <Item value="nf" priority="2" />
+      <Item value="strUserName" priority="1" />
+      <Item value="strPassword" priority="0" />
+      <Item value="fuser" priority="0" />
+      <Item value="m_cPersonCode" priority="0" />
+      <Item value="case" priority="0" />
+      <Item value="UserRole" priority="0" />
+      <Item value="po" priority="0" />
+      <Item value="userrole" priority="0" />
+      <Item value="Form_NoFaHuo`0" priority="0" />
+      <Item value="faHuo" priority="3" />
+      <Item value="Form_NoFaHuo" priority="0" />
+      <Item value="label_nodown" priority="0" />
+      <Item value="label_down" priority="0" />
+      <Item value="label_fahuo" priority="0" />
+      <Item value="label_nofahuo" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.ComboBox">
+      <Item value="SelectedIndex" priority="6" />
+      <Item value="DataSource" priority="0" />
+      <Item value="SelectedValue" priority="1" />
+      <Item value="SelectedItem" priority="0" />
+      <Item value="Items" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:WindowsFormsApplication1.DeliveryPrint">
+      <Item value="CPersonCode" priority="0" />
+      <Item value="Account" priority="0" />
+      <Item value="m_Address" priority="0" />
+      <Item value="hdname" priority="0" />
+      <Item value="Update_ddmx_btl`0" priority="0" />
+      <Item value="btnPrint_Click`0" priority="0" />
+      <Item value="textBox_reprint" priority="0" />
+      <Item value="txtPrintPiece" priority="1" />
+      <Item value="cmbShopMethod" priority="1" />
+      <Item value="button_gethdname" priority="0" />
+      <Item value="Resize" priority="0" />
+      <Item value="jiesuo`0" priority="0" />
+      <Item value="Userrole" priority="0" />
+      <Item value="button_download" priority="0" />
+      <Item value="button_jiechu" priority="0" />
+      <Item value="btnPrint" priority="0" />
+      <Item value="btnSave" priority="0" />
+      <Item value="btnSelect" priority="0" />
+      <Item value="Address" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:WindowsFormsApplication1.ShenTongInfo">
+      <Item value="shopName" priority="0" />
+      <Item value="DaZi" priority="0" />
+      <Item value="YanSe" priority="0" />
+      <Item value="ChiMa" priority="0" />
+      <Item value="RiQi" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.String">
+      <Item value="Empty" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Object">
+      <Item value="ToString`0" priority="15" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:WindowsFormsApplication1.DeliveryPrintService.DeliveryPrintService">
+      <Item value="GetHdNameAll`0" priority="0" />
+      <Item value="GetPrintNum`0" priority="0" />
+      <Item value="GetPrintAll`0" priority="0" />
+      <Item value="GetOrderInfo`0" priority="1" />
+      <Item value="GetByDeliveryNo`0" priority="0" />
+      <Item value="GetPrintPart`0" priority="0" />
+      <Item value="GetPrintGroupBy`0" priority="0" />
+      <Item value="GetOrderInfo2`0" priority="0" />
+      <Item value="RealseLock`0" priority="1" />
+      <Item value="CookieContainer" priority="0" />
+      <Item value="RUser`0" priority="0" />
+      <Item value="RealseLockuser`0" priority="0" />
+      <Item value="myheaderValue" priority="0" />
+      <Item value="GetWenTiDan`0" priority="0" />
+      <Item value="GetTuanNum`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Windows.Forms.MessageBox">
+      <Item value="Show`0" priority="10" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.Label">
+      <Item value="Text" priority="7" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Int32">
+      <Item value="ToString`0" priority="10" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:WindowsFormsApplication1.Form_PrintAllOk">
+      <Item value="timer1" priority="0" />
+      <Item value="button_renew" priority="3" />
+      <Item value="Address" priority="0" />
+      <Item value="Show`0" priority="1" />
+      <Item value="dataGridView_allprintok" priority="0" />
+      <Item value="Hdname" priority="0" />
+      <Item value="getallprintok`0" priority="0" />
+      <Item value="getprintpartok`0" priority="1" />
+      <Item value="Focus`0" priority="0" />
+      <Item value="dataGridView_groupbyprint" priority="0" />
+      <Item value="dateTimePicker1" priority="0" />
+      <Item value="Activate`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.Timer">
+      <Item value="Interval" priority="0" />
+      <Item value="Enabled" priority="9" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.Button">
+      <Item value="Enabled" priority="12" />
+      <Item value="GetType`0" priority="0" />
+      <Item value="Visible" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Data.DataTable">
+      <Item value="Rows" priority="7" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Data.DataRowCollection">
+      <Item value="Count" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.DataGridView">
+      <Item value="DataSource" priority="8" />
+      <Item value="Rows" priority="20" />
+      <Item value="Refresh`0" priority="2" />
+      <Item value="RefreshEdit`0" priority="2" />
+      <Item value="Enabled" priority="1" />
+      <Item value="EndEdit`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Data.DataSet">
+      <Item value="Tables" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Data.DataRow">
+      <Item value="ToString`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.String">
+      <Item value="Equals`0" priority="23" />
+      <Item value="Trim`0" priority="10" />
+      <Item value="Substring`0" priority="2" />
+      <Item value="IndexOf`0" priority="1" />
+      <Item value="Remove`0" priority="4" />
+      <Item value="LastIndexOf`0" priority="5" />
+      <Item value="EndsWith`0" priority="7" />
+      <Item value="Length" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Int32">
+      <Item value="Parse`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Text.StringBuilder">
+      <Item value="Append`0" priority="2" />
+      <Item value="ToString`0" priority="3" />
+      <Item value="Length" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.IO.StreamWriter">
+      <Item value="Write`0" priority="0" />
+      <Item value="WriteLine`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.List`1">
+      <Item value="Add`0" priority="1" />
+      <Item value="Count" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Exception">
+      <Item value="Message" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@WindowsFormsApplication1.Form_PrintAllOk">
+      <Item value="InstanceObject`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@WindowsFormsApplication1.Form_help">
+      <Item value="ScrollStateVScrollVisible" priority="0" />
+      <Item value="InstanceObject`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:WindowsFormsApplication1.Form_help">
+      <Item value="Show`0" priority="0" />
+      <Item value="Focus`0" priority="0" />
+      <Item value="Activate`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.StatusStrip">
+      <Item value="Text" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.ToolStripStatusLabel">
+      <Item value="ForeColor" priority="0" />
+      <Item value="Text" priority="3" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Drawing.Color">
+      <Item value="DarkRed" priority="0" />
+      <Item value="DarkGreen" priority="1" />
+      <Item value="Red" priority="1" />
+      <Item value="LightSeaGreen" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.DateTime">
+      <Item value="Now" priority="0" />
+      <Item value="Parse`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.DateTime">
+      <Item value="ToString`0" priority="7" />
+      <Item value="Date" priority="5" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.TextBox">
+      <Item value="Text" priority="30" />
+      <Item value="Focus`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.DateTimePicker">
+      <Item value="Value" priority="7" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.DataGridViewColumn">
+      <Item value="Displayed" priority="0" />
+      <Item value="Visible" priority="3" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.DataGridViewRowCollection">
+      <Item value="Count" priority="6" />
+      <Item value="RemoveAt`0" priority="0" />
+      <Item value="Add`0" priority="1" />
+      <Item value="Remove`0" priority="0" />
+      <Item value="Clear`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.DataGridViewRow">
+      <Item value="Cells" priority="2" />
+      <Item value="Index" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.Control">
+      <Item value="Enabled" priority="0" />
+      <Item value="GetType`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Type">
+      <Item value="ToString`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.DataGridViewCell">
+      <Item value="Style" priority="4" />
+      <Item value="Value" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.DataGridViewCellStyle">
+      <Item value="BackColor" priority="4" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:test.DeliveryPrintService.DeliveryPrintService">
+      <Item value="GetHdNameAll`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Threading.Thread">
+      <Item value="Name" priority="1" />
+      <Item value="ToString`0" priority="0" />
+      <Item value="ThreadState" priority="0" />
+      <Item value="GetHashCode`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:test.Form1">
+      <Item value="Invoke`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.AppDomain">
+      <Item value="CurrentDomain" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.AppDomain">
+      <Item value="Id" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Threading.Thread">
+      <Item value="CurrentThread" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.Form">
+      <Item value="Show`0" priority="0" />
+      <Item value="Focus`0" priority="0" />
+      <Item value="Activate`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:WindowsFormsApplication1.Form_jiesuo">
+      <Item value="textBox_gly" priority="0" />
+      <Item value="textBox_kl" priority="0" />
+      <Item value="textBox_user" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:WindowsFormsApplication1.FrmLogin">
+      <Item value="Hide`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:WindowsFormsApplication1.Form_NoFaHuo">
+      <Item value="Address" priority="0" />
+      <Item value="Show`0" priority="0" />
+      <Item value="Activate`0" priority="0" />
+      <Item value="dateTimePicker1" priority="1" />
+    </ItemStatistics>
+  </CompletionStatisticsManager>
+</Configuration>

@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Database Name="double12" Class="DataClasses1DataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=222.73.68.11;Initial Catalog=double12;Persist Security Info=True;User ID=kan" SettingsObjectName="ServiceLib.Properties.Settings" SettingsPropertyName="double12ConnectionString1" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.ProductOrderInfo" Member="ProductOrderInfo">
+    <Type Name="ProductOrderInfo">
+      <Column Name="id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Seller_nick" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Buyer_nick" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Iid" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Title" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Price" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="pic_path" Type="System.String" DbType="NVarChar(200)" CanBeNull="true" />
+      <Column Name="Num" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Created" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="Type" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Tid" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Alipay_no" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Payment" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Status" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Seller_rate" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Buyer_rate" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="PaymentTime" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="IsError" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="IsComplete" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="Consignee" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Phone" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Tel" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Provinces" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="City" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="District" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Address" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="PostBack" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="ExpressWay" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="LogisticsCompanies" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="AWBNo" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Remark" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="IsMerger" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="IsModifiedPostage" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="JHLockUser" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="freight" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="PaymentTotal" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="IsClose" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="buyMailBox" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="salesType" Type="System.Char" DbType="Char(1)" CanBeNull="true" />
+      <Column Name="addTime" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="addType" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="Piecesday" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="paymentmethod" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Paccount" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Pcode" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="IsRead" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="IsPrint" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="Stime" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="Ptime" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="DeliveryNo" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="hdname" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="cfprint" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="rongyu1" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+      <Column Name="rongyu2" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+      <Column Name="rongyu3" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="rongyu4" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="rongyu5" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="rongyu6" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="rongyu7" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="rongyu8" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="Memo" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.NMLCH_vUseNum" Member="NMLCH_vUseNum">
+    <Type Name="NMLCH_vUseNum">
+      <Column Name="Stockcode" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="StockName" Type="System.String" DbType="VarChar(MAX) NOT NULL" CanBeNull="false" />
+      <Column Name="Color" Type="System.String" DbType="VarChar(MAX)" CanBeNull="true" />
+      <Column Name="Size" Type="System.String" DbType="VarChar(MAX)" CanBeNull="true" />
+      <Column Name="Amount" Type="System.Double" DbType="Float NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+</Database>

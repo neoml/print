@@ -1,0 +1,9 @@
+I:\工作\双12专用打印\DeliveryPrint\DeliveryPrint\test\bin\Debug\test.exe
+I:\工作\双12专用打印\DeliveryPrint\DeliveryPrint\test\bin\Debug\test.pdb
+I:\工作\双12专用打印\DeliveryPrint\DeliveryPrint\test\obj\Debug\ResolveAssemblyReference.cache
+I:\工作\双12专用打印\DeliveryPrint\DeliveryPrint\test\obj\Debug\test.Form1.resources
+I:\工作\双12专用打印\DeliveryPrint\DeliveryPrint\test\obj\Debug\test.Properties.Resources.resources
+I:\工作\双12专用打印\DeliveryPrint\DeliveryPrint\test\obj\Debug\test.csproj.GenerateResource.Cache
+I:\工作\双12专用打印\DeliveryPrint\DeliveryPrint\test\obj\Debug\test.exe
+I:\工作\双12专用打印\DeliveryPrint\DeliveryPrint\test\obj\Debug\test.pdb
+I:\工作\双12专用打印\DeliveryPrint\DeliveryPrint\test\bin\Debug\test.exe.config

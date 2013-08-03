@@ -1,0 +1,97 @@
+<Configuration>
+  <SettingsComponent>
+    <string />
+    <integer />
+    <boolean>
+      <setting name="SolutionAnalysisEnabled">False</setting>
+    </boolean>
+  </SettingsComponent>
+  <CompletionStatisticsManager>
+    <ItemStatistics item="Default">
+      <Item value="button1_Click`0" priority="0" />
+      <Item value="ServiceLib" priority="0" />
+      <Item value="BC" priority="0" />
+      <Item value="DeliveryPrintBC`0" priority="0" />
+      <Item value="deliveryPrintBc" priority="1" />
+      <Item value="new" priority="0" />
+      <Item value="DeliveryPrintBC" priority="0" />
+      <Item value="var" priority="0" />
+      <Item value="string" priority="2" />
+      <Item value="public" priority="1" />
+      <Item value="DataTable`0" priority="1" />
+      <Item value="m" priority="1" />
+      <Item value="if" priority="0" />
+      <Item value="s" priority="4" />
+      <Item value="t" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:ServiceLib.BC.DeliveryPrintBC">
+      <Item value="GetShippingChoice`0" priority="0" />
+      <Item value="GetregionCodeQiYun`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.String">
+      <Item value="Format`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:ServiceLib.DA.DeliveryPrintDA">
+      <Item value="GetregionCodeQiYun`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.String">
+      <Item value="Substring`0" priority="0" />
+      <Item value="PadLeft`0" priority="0" />
+      <Item value="Split`0" priority="0" />
+      <Item value="Contains`0" priority="0" />
+    </ItemStatistics>
+  </CompletionStatisticsManager>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="7CD5389B-A2F9-42E0-974B-B9E9B91F06CB/d:BC/f:StoragePrintBC.cs" caret="4328" fromTop="26" />
+      <File id="45B162AA-4A52-4084-932E-8E2EECA950E4/f:DeliveryPrintService.asmx.cs" caret="2507" fromTop="21" />
+      <File id="16503F43-4099-483E-9E03-E42CA35B484B/f:Form1.cs" caret="1492" fromTop="19" />
+      <File id="7CD5389B-A2F9-42E0-974B-B9E9B91F06CB/d:Util/f:SqlHelper.cs" caret="203" fromTop="8" />
+      <File id="7CD5389B-A2F9-42E0-974B-B9E9B91F06CB/d:DA/f:StoragePrintDA.cs" caret="36161" fromTop="21" />
+      <File id="7CD5389B-A2F9-42E0-974B-B9E9B91F06CB/d:BC/f:DeliveryPrintBC.cs" caret="18205" fromTop="10" />
+      <File id="7CD5389B-A2F9-42E0-974B-B9E9B91F06CB/d:DA/f:DeliveryPrintDA.cs" caret="24227" fromTop="10" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="7CD5389B-A2F9-42E0-974B-B9E9B91F06CB/d:DA/f:DeliveryPrintDA.cs" caret="40276" fromTop="11" />
+      <File id="16503F43-4099-483E-9E03-E42CA35B484B/f:Form1.cs" caret="2768" fromTop="26" />
+      <File id="16503F43-4099-483E-9E03-E42CA35B484B/f:Form1.cs" caret="1739" fromTop="36" />
+      <File id="7CD5389B-A2F9-42E0-974B-B9E9B91F06CB/d:DA/f:DeliveryPrintDA.cs" caret="40160" fromTop="17" />
+      <File id="7CD5389B-A2F9-42E0-974B-B9E9B91F06CB/d:DA/f:DeliveryPrintDA.cs" caret="48392" fromTop="23" />
+      <File id="7CD5389B-A2F9-42E0-974B-B9E9B91F06CB/d:DA/f:DeliveryPrintDA.cs" caret="47387" fromTop="19" />
+      <File id="7CD5389B-A2F9-42E0-974B-B9E9B91F06CB/d:DA/f:DeliveryPrintDA.cs" caret="46945" fromTop="10" />
+      <File id="7CD5389B-A2F9-42E0-974B-B9E9B91F06CB/d:DA/f:DeliveryPrintDA.cs" caret="48384" fromTop="32" />
+      <File id="7CD5389B-A2F9-42E0-974B-B9E9B91F06CB/d:DA/f:DeliveryPrintDA.cs" caret="47345" fromTop="14" />
+      <File id="7CD5389B-A2F9-42E0-974B-B9E9B91F06CB/d:DA/f:DeliveryPrintDA.cs" caret="52677" fromTop="21" />
+      <File id="7CD5389B-A2F9-42E0-974B-B9E9B91F06CB/d:DA/f:DeliveryPrintDA.cs" caret="52794" fromTop="26" />
+      <File id="7CD5389B-A2F9-42E0-974B-B9E9B91F06CB/d:BC/f:DeliveryPrintBC.cs" caret="19815" fromTop="17" />
+      <File id="45B162AA-4A52-4084-932E-8E2EECA950E4/f:DeliveryPrintService.asmx.cs" caret="7133" fromTop="39" />
+      <File id="7CD5389B-A2F9-42E0-974B-B9E9B91F06CB/d:BC/f:DeliveryPrintBC.cs" caret="19932" fromTop="8" />
+      <File id="45B162AA-4A52-4084-932E-8E2EECA950E4/f:DeliveryPrintService.asmx.cs" caret="7193" fromTop="32" />
+      <File id="45B162AA-4A52-4084-932E-8E2EECA950E4/f:DeliveryPrintService.asmx.cs" caret="7251" fromTop="32" />
+      <File id="16503F43-4099-483E-9E03-E42CA35B484B/f:Form1.cs" caret="3037" fromTop="21" />
+      <File id="16503F43-4099-483E-9E03-E42CA35B484B/f:Form1.cs" caret="2954" fromTop="35" />
+      <File id="7CD5389B-A2F9-42E0-974B-B9E9B91F06CB/d:DA/f:DeliveryPrintDA.cs" caret="52950" fromTop="24" />
+      <File id="7CD5389B-A2F9-42E0-974B-B9E9B91F06CB/d:Util/f:SqlHelper.cs" caret="923" fromTop="17" />
+      <File id="7CD5389B-A2F9-42E0-974B-B9E9B91F06CB/d:Util/f:SqlHelper.cs" caret="1388" fromTop="25" />
+      <File id="16503F43-4099-483E-9E03-E42CA35B484B/f:Form1.cs" caret="1217" fromTop="32" />
+      <File id="16503F43-4099-483E-9E03-E42CA35B484B/f:Form1.cs" caret="298" fromTop="13" />
+      <File id="7CD5389B-A2F9-42E0-974B-B9E9B91F06CB/d:DA/f:StoragePrintDA.cs" caret="34451" fromTop="20" />
+      <File id="16503F43-4099-483E-9E03-E42CA35B484B/f:Form1.cs" caret="1682" fromTop="26" />
+      <File id="7CD5389B-A2F9-42E0-974B-B9E9B91F06CB/d:DA/f:DeliveryPrintDA.cs" caret="49463" fromTop="10" />
+      <File id="7CD5389B-A2F9-42E0-974B-B9E9B91F06CB/d:Util/f:SqlHelper.cs" caret="498" fromTop="15" />
+      <File id="7CD5389B-A2F9-42E0-974B-B9E9B91F06CB/d:Util/f:SqlHelper.cs" caret="927" fromTop="19" />
+      <File id="7CD5389B-A2F9-42E0-974B-B9E9B91F06CB/d:Util/f:SqlHelper.cs" caret="476" fromTop="11" />
+    </RecentEdits>
+  </RecentFiles>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <UnitTestRunner>
+    <Providers />
+  </UnitTestRunner>
+  <UnitTestRunnerNUnit>
+    <NUnitInstallDir IsNull="False">
+    </NUnitInstallDir>
+    <UseAddins>Never</UseAddins>
+  </UnitTestRunnerNUnit>
+</Configuration>
