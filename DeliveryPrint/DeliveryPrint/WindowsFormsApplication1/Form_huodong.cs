@@ -14,8 +14,8 @@ namespace WindowsFormsApplication1
         public Form_huodong()
         {
             InitializeComponent();
-            Up = new List<string>();
-            Inte = new List<string>();
+            Up = new List<int>();
+            Inte = new List<int>();
         }
         public DataTable hd;
         public string Seller_ID;
@@ -153,9 +153,9 @@ namespace WindowsFormsApplication1
             else
                 return; 
         }
-        private void Up()
-        { 
-        }
+      //  private void Up()
+     //   { 
+     //   }
        
         private void dataGridView1_CellEndEdit(object sender, DataGridViewCellEventArgs e)
         {
